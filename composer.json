@@ -16,6 +16,7 @@
         "laravel/tinker": "^2.8",
         "spatie/browsershot": "^3.57",
         "statamic/cms": "^4.0",
+        "statamic/ssg": "^2.0",
         "studio1902/statamic-peak-browser-appearance": "3.1",
         "studio1902/statamic-peak-commands": "^2.0",
         "studio1902/statamic-peak-seo": "^2.0",
