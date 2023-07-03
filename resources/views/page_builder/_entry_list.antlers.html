@@ -1,0 +1,50 @@
+{{#
+    @name Entry List
+    @desc The Entry List page builder block.
+    @set page.page_builder.entry_list
+#}}
+
+<!-- /page_builder/_entry_list.antlers.html -->
+
+<section class="antialiased ">
+	<div class="container max-w-5xl px-4 py-12 mx-auto">
+		<div class="grid gap-4 mx-4 sm:grid-cols-12">
+			<div class="col-span-12 sm:col-span-3">
+				<div class="before:-skew-x-12 sm:text-left mb-14 before:block before:w-24 sm:before:h-2 before:h-1 before:mb-5 sm:before:mx-0 before:dark:bg-yellow-400">
+					
+                    {{ title ?= { partial:typography/h2 as="h2" :content="title" class="uppercase md:col-span-12" } }}
+					<span class="font-mono text-sm font-bold tracking-wider uppercase">{{ subtitle }}</span>
+				</div>
+			</div>
+			<div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+				<div class="max-w-md mx-auto space-y-4 ">
+                    
+                {{ select_entradas  as="items" }}
+                <ol class="relative space-y-8 border-l border-gray-200">
+                {{ items }}
+                    <li class="ml-8 space-y-2 group">
+                        <div class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200"></div>
+                        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">Planificación</span>
+                        <div class="absolute text-4xl font-normal text-gray-500 -translate-x-16 -translate-y-6 ">
+                            <div class="overflow-hidden">
+                            
+                            <svg class="w-6 transition-transform duration-200 ease-in-out translate-x-6 group-hover:translate-x-0 opacity-40 " viewBox="0 0 150 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.89125 31.4222L89.421 52.2923C93.0237 53.1985 95.6123 53.2252 99.2417 52.4255L130.786 45.4155C133.881 44.7225 135.776 43.3898 137.484 40.7244L148.692 23.1061L150 17.9353L143.942 16.416C140.873 15.643 138.578 15.9895 135.856 17.6154L113.759 30.8625L87.8731 24.3855L113.759 8.87291L115.067 3.70203L103.218 0.74344C98.6546 -0.402682 95.2921 -0.242759 90.862 1.35648L51.6324 15.3498L36.5811 11.5916C29.0821 9.72583 23.5312 10.1523 16.3792 13.1375L4.90383 17.9619C-2.14149 20.9205 -1.42094 29.5831 5.94462 31.3955L5.89125 31.4222Z" fill="currentColor"/>
+                                </svg>
+                                
+                            </div>
+                        </div>
+                        <a href="{{ url }}">
+                        {{ partial:typography/h2 :content="title" class="pt-2 text-lg font-semibold text-gray-900 decoration-primary group-hover:underline decoration-2 underline-offset-2 group-hover:text-primary " }}
+                        </a>
+                        {{# {{ partial:typography/p :content="teaser" class="mb-4 text-base font-normal text-gray-500" }} #}}
+                    </li>
+                {{ /items }}
+                </ol>
+                {{ /select_entradas }}
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End: /page_builder/_entry_list.antlers.html -->

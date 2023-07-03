@@ -1,0 +1,27 @@
+tree:
+  -
+    id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
+    entry: home
+  -
+    id: 88b13e58-1371-48db-8b0a-3103ea685215
+    title: Guias
+    children:
+      -
+        id: 9e678aba-3ad8-4431-96e0-1bda2c8d997e
+        title: Planificacion
+      -
+        id: 56776541-2766-47c6-b6bb-eb1f8bdcaf15
+        title: 'Al llegar'
+  -
+    id: 1ecc9fdc-43fb-48ea-bad5-b66a5dd863d4
+    title: Recursos
+  -
+    id: b7ab9d81-b0d1-42af-85fa-ecd1aaba6407
+    title: Actividades
+  -
+    id: a6326eb2-94e9-4be3-9979-c7cdcd15bbe1
+    entry: 7b6be7b2-2163-4e82-af01-c1f55ef223f0
+  -
+    id: e6ff7414-10a1-419c-a6f6-e2eb504f0bca
+    title: 'Pizza 🍕'
+    url: 'https://www.buymeacoffee.com/xvjL2lU86'

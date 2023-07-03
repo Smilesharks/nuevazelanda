@@ -1,0 +1,24 @@
+{{#
+    @name Hero Home
+    @desc The Hero Home page builder block.
+    @set page.page_builder.hero_home
+#}}
+
+<!-- /page_builder/_hero_home.antlers.html -->
+<section class="antialiased isolate pb-36 md:pb-0 bg-gradient-to-b from-yellow-50 to-yellow-100">
+    <div class="relative px-4 py-16 mx-auto sm:block sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
+      {{ partial src="components/illustracion" class="w-56 md:w-64" }}
+      <div class="relative max-w-xl sm:mx-auto lg:max-w-2xl">
+        <div class="flex flex-col mb-16 md:items-center sm:mb-0 sm:text-center">
+          <div class="max-w-xl mb-10 sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
+            {{ partial:typography/h1 :content="title" class="max-w-lg mb-4 font-sans text-3xl font-bold leading-none tracking-tight text-gray-800 sm:text-4xl md:mx-auto text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-700 to-gray-900" }}
+            {{ partial:typography/p :content="textarea" }}
+          </div>
+          {{ partial:components/buttons class="flex items-center" }}
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End: /page_builder/_hero_home.antlers.html -->
+
+

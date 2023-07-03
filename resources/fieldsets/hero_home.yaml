@@ -1,0 +1,28 @@
+title: 'Hero Home'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: textarea
+    field:
+      antlers: false
+      type: textarea
+      display: Textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: buttons
+    field: buttons.buttons

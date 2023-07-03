@@ -1,0 +1,27 @@
+{{#
+    @name Entradas
+    @desc The Entradas page builder block.
+    @set page.page_builder.entradas
+#}}
+
+<!-- /page_builder/_entradas.antlers.html -->
+<section class="grid gap-8 fluid-container md:grid-cols-12">
+    {{ title ?= { partial:typography/h1 as="h2" :content="title" class="md:col-span-12" } }}
+
+    {{ collection:entradas sort="date:desc" limit="3" as="items" }}
+        {{ unless no_results }}
+            {{ items }}
+                {{ partial:components/entradas_item class="md:col-span-4" }}
+            {{ /items }}
+        {{ else }}
+            <div class="md:col-span-6">
+                {{ trans:strings.no_results }}
+            </div>
+        {{ /if }}
+    {{ /collection:entradas }}
+
+    <nav class="text-right md:col-span-12">
+        {{ partial:components/button label="{trans:strings.entradas_all}" button_type="inline" link_type="url" url="{mount_url:entradas}" }}
+    </nav>
+</section>
+<!-- End: /page_builder/_entradas.antlers.html -->

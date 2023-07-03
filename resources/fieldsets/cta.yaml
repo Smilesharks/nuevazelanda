@@ -1,0 +1,36 @@
+title: CTA
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: description
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Description
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: url
+    field:
+      type: link
+      display: url
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

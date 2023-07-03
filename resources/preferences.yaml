@@ -1,0 +1,15 @@
+nav:
+  reorder: true
+  sections:
+    top_level: '@inherit'
+    favoritos:
+      action: '@create'
+      items:
+        'favoritos::home':
+          action: '@create'
+          display: Home
+          url: collections/pages/entries/home
+        'favoritos::entradas':
+          action: '@create'
+          display: Entradas
+          url: collections/entradas

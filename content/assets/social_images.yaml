@@ -1,0 +1,8 @@
+title: 'Social Images'
+disk: social_images
+allow_uploads: true
+allow_downloading: true
+allow_renaming: true
+allow_moving: true
+create_folders: false
+source_preset: replacement
