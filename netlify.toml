@@ -18,7 +18,7 @@
   command = "npm install && vite build && php please ssg:generate"
 
 [context.production.environment]
-  #PHP_VERSION="8.1"
+  #PHP_VERSION="^8.1"
 
 [[headers]]
   for = "/sitemap.xml"
