@@ -15,7 +15,7 @@
   publish = "./storage/app/static"
 
   # Default build command.
-  command = "npm install && vite build && php please ssg:generate"
+  command = "vite build && php please ssg:generate"
 
 [context.production.environment]
   #PHP_VERSION="8.1"
