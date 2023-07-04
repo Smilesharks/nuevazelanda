@@ -9,9 +9,11 @@ tree:
       -
         id: 9e678aba-3ad8-4431-96e0-1bda2c8d997e
         title: Planificacion
+        url: /entradas/estado/antes-de-llegar
       -
         id: 56776541-2766-47c6-b6bb-eb1f8bdcaf15
         title: 'Al llegar'
+        url: /entradas/estado/al-llegar
   -
     id: 1ecc9fdc-43fb-48ea-bad5-b66a5dd863d4
     title: Recursos

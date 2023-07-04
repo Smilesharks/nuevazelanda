@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688373401
+updated_at: 1688381264
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -30,7 +30,7 @@ page_builder:
         target_blank: false
         url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
         button_type: inline
-    textarea: 'Tomar la decisión de viajar a un lugar tan lejano no es fácil, es por eso que he creado esta guía completamente gratuita con toda la información que he recopilado a lo largo de los 5 años que he vivido en Nueva Zelanda para que el comienzo de tu aventura sea mucho más fácil.'
+    textarea: 'Tomar la decisión de viajar a un lugar tan lejano no es fácil, es por eso que he creado esta guía completamente gratuita con la información que he recopilado a lo largo de los 5 años que he vivido en Nueva Zelanda y que iré actualizando periódicamente para que el comienzo de tu aventura sea mucho más fácil.'
   -
     id: lji52083
     type: entry_list

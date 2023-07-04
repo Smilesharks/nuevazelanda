@@ -19,7 +19,7 @@
                     class="
                         p-1 -m-1 flex items-center font-bold text-sm hover:text-white focus:outline-none focus-visible:ring-2 ring-primary
                         {{ is_current || is_parent
-                            ? 'text-white'
+                            ? 'text-yellow-500'
                             : 'text-white' }}
                     "
                     {{ if children }}
@@ -53,9 +53,9 @@
                             <li class="">
                                 <a
                                     class="
-                                        whitespace-nowrap py-2 px-1 -mx-1 block text-xs font-bold hover:text-white focus:outline-none focus-visible:ring-2 ring-primary
+                                        whitespace-nowrap py-2 px-1 -mx-1 block text-xs font-bold hover:text-yellow-400 focus:outline-none focus-visible:ring-2 ring-primary
                                         {{ is_current || is_parent
-                                            ? 'text-white'
+                                            ? 'text-yellow-500'
                                             : 'text-neutral' }}
                                     "
                                     href="{{ url }}"
