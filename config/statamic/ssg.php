@@ -45,6 +45,7 @@ return [
         public_path('favicon.ico') => 'favicon.ico',
         public_path('build') => 'build',
         public_path('social_images') => 'social_images',
+        public_path('visuals') => 'visuals',
     ],
 
     'symlinks' => [
