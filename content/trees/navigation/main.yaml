@@ -8,7 +8,7 @@ tree:
     children:
       -
         id: 9e678aba-3ad8-4431-96e0-1bda2c8d997e
-        title: Planificacion
+        title: Planificación
         url: /entradas/estado/antes-de-llegar
       -
         id: 56776541-2766-47c6-b6bb-eb1f8bdcaf15
@@ -25,5 +25,5 @@ tree:
     entry: 7b6be7b2-2163-4e82-af01-c1f55ef223f0
   -
     id: e6ff7414-10a1-419c-a6f6-e2eb504f0bca
-    title: 'Pizza 🍕'
+    title: 🍕
     url: 'https://www.buymeacoffee.com/xvjL2lU86'

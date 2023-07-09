@@ -208,6 +208,26 @@ tabs:
                           field:
                             type: hidden
                             default: 'https://www.youtube.com/'
+                    threads:
+                      display: Threads
+                      instructions: null
+                      icon: social-threads
+                      fields:
+                        -
+                          handle: handle
+                          field:
+                            input_type: text
+                            type: text
+                            localizable: true
+                            listable: hidden
+                            prepend: 'https://www.threads.net/@'
+                            display: Handle
+                            validate: required
+                        -
+                          handle: prefix
+                          field:
+                            type: hidden
+                            default: 'https://www.threads.net/@'
               type: replicator
               listable: hidden
               localizable: true

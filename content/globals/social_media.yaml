@@ -11,4 +11,28 @@ data:
       handle: studio1902
       prefix: 'https://www.github.com/'
       type: github
+      enabled: false
+    -
+      id: ljsfdeih
+      handle: smilesharks
+      prefix: 'https://www.twitter.com/'
+      type: twitter
+      enabled: true
+    -
+      id: ljsfdswy
+      handle: smilesharks
+      prefix: 'https://www.instagram.com/'
+      type: instagram
+      enabled: true
+    -
+      id: ljsfe6rq
+      handle: 'channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
+      prefix: 'https://www.youtube.com/'
+      type: youtube
+      enabled: true
+    -
+      id: ljsfs2yi
+      handle: smilesharks
+      prefix: 'https://www.threads.net/@'
+      type: threads
       enabled: true

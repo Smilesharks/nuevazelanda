@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688381264
+updated_at: 1688893157
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -44,9 +44,9 @@ page_builder:
       - 6848b187-ca37-41af-b762-34f3e128bb90
       - c5e70595-049b-4c86-aeaa-8b4f75cbc71a
       - 2569c85e-ad9e-4e2d-b9be-8ecd5395cad3
-      - 12c4da9f-ecd9-43a1-aa40-bec0cb6556a6
       - dd24afaa-31c1-40ba-8f47-b1bdfd4ec402
       - 8ff97a2d-8e15-43f7-b030-a62ae00cf811
+      - 12c4da9f-ecd9-43a1-aa40-bec0cb6556a6
       - a86de51c-1690-46cb-ae4e-5fff6701746a
     subtitle: 'Vestibulum diam nunc'
   -
@@ -62,6 +62,7 @@ page_builder:
     select_entradas:
       - deb274fc-e290-40d6-9f1e-5c3e59e2b4ac
       - 4466e579-6cf5-403f-96d9-926662456068
+      - 96f33ab9-eeec-444f-8240-209d3fa96a2d
     type: entry_list
     enabled: true
     subtitle: 'Vestibulum diam nunc'
