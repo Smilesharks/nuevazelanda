@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688893157
+updated_at: 1688983369
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -21,7 +21,7 @@ page_builder:
         label: Suscríbete
         link_type: url
         target_blank: false
-        url: '#'
+        url: 'https://arielcerda.us18.list-manage.com/subscribe?u=9251d9deccc6863333a4ee019&id=a0f39a7fed'
         button_type: button
       -
         id: ljk0zhzg
@@ -48,7 +48,7 @@ page_builder:
       - 8ff97a2d-8e15-43f7-b030-a62ae00cf811
       - 12c4da9f-ecd9-43a1-aa40-bec0cb6556a6
       - a86de51c-1690-46cb-ae4e-5fff6701746a
-    subtitle: 'Vestibulum diam nunc'
+    subtitle: 'Preparate para el viaje'
   -
     id: ljjahiqk
     type: cta
@@ -60,10 +60,12 @@ page_builder:
     id: ljijgzev
     title: 'Al llegar'
     select_entradas:
+      - 96f33ab9-eeec-444f-8240-209d3fa96a2d
       - deb274fc-e290-40d6-9f1e-5c3e59e2b4ac
       - 4466e579-6cf5-403f-96d9-926662456068
-      - 96f33ab9-eeec-444f-8240-209d3fa96a2d
     type: entry_list
     enabled: true
-    subtitle: 'Vestibulum diam nunc'
+    subtitle: '¿y ahora que?'
+seo_title: 'Aventura Nueva Zelanda'
+seo_description: 'Encuentra toda la información que necesitas para tu aventura en Nueva Zelanda'
 ---

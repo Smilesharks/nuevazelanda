@@ -5,7 +5,7 @@
 				<div class="before:-skew-x-12 sm:text-left mb-14 before:block before:w-24 sm:before:h-2 before:h-1 before:mb-5 sm:before:mx-0 before:dark:bg-yellow-400">
 					
                     {{ title ?= { partial:typography/h2 as="h2" :content="title" class="uppercase md:col-span-12" } }}
-					<span class="font-mono text-sm font-bold tracking-wider uppercase">{{ subtitle }}</span>
+					<span class="font-mono text-sm font-bold uppercase">{{ subtitle }}</span>
 				</div>
 			</div>
 			<div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
@@ -29,7 +29,7 @@
                         <a href="{{ url }}">
                         {{ partial:typography/h2 :content="title" class="pt-2 text-lg font-semibold text-gray-900 decoration-primary group-hover:underline decoration-2 underline-offset-2 group-hover:text-primary " }}
                         </a>
-                        {{# {{ partial:typography/p :content="teaser" class="mb-4 text-base font-normal text-gray-500" }} #}}
+                        {{ partial:typography/p :content="teaser" class="mb-4 text-xs font-normal text-gray-500" }}
                     </li>
                 {{ /items }}
                 </ol>

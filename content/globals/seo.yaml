@@ -1,12 +1,18 @@
 title: SEO
 data:
+  site_name: 'Aventura Nueva Zelanda'
   noindex_local: true
   noindex_staging: true
   noindex_production: false
   hreflang_auto: true
-  json_ld_type: none
+  json_ld_type: organization
+  organization_name: 'Aventura Nueva Zelanda'
+  organization_logo: organization-logo.png
   breadcrumbs: false
   use_social_image_generation: false
+  og_image: og-image.png
+  twitter_image: og-twitter.png
+  twitter_handle: smilesharks
   sitemap_collections:
     - pages
   trackers_local: false
