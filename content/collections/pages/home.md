@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688983369
+updated_at: 1688990465
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -46,15 +46,17 @@ page_builder:
       - 2569c85e-ad9e-4e2d-b9be-8ecd5395cad3
       - dd24afaa-31c1-40ba-8f47-b1bdfd4ec402
       - 8ff97a2d-8e15-43f7-b030-a62ae00cf811
+      - 730fd7c7-e104-42fe-a925-dde05d0594b3
       - 12c4da9f-ecd9-43a1-aa40-bec0cb6556a6
       - a86de51c-1690-46cb-ae4e-5fff6701746a
+      - e5eddbf7-9d9c-4c9b-95ce-7c12dc606165
     subtitle: 'Preparate para el viaje'
   -
     id: ljjahiqk
     type: cta
     enabled: true
     title: Suscribete
-    description: 'Este es un es un proyecto gratuito, pasa a youtube a saludar.'
+    description: 'Suscríbete a mi canal para apoyar el proyecto y pasa a saludar.'
     url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
   -
     id: ljijgzev
@@ -63,6 +65,8 @@ page_builder:
       - 96f33ab9-eeec-444f-8240-209d3fa96a2d
       - deb274fc-e290-40d6-9f1e-5c3e59e2b4ac
       - 4466e579-6cf5-403f-96d9-926662456068
+      - ce22c753-7ce6-4f94-8bdf-1c8074bf9b7c
+      - 6d59d905-9c70-496b-a098-72d6324d6109
     type: entry_list
     enabled: true
     subtitle: '¿y ahora que?'

@@ -16,7 +16,9 @@
                 {{ items }}
                     <li class="ml-8 space-y-2 group">
                         <div class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200"></div>
-                        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">Planificación</span>
+                        {{ estado limit="1" }}
+                        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">{{ title }}</span>
+                        {{ /estado }}
                         <div class="absolute text-4xl font-normal text-gray-500 -translate-x-16 -translate-y-6 ">
                             <div class="overflow-hidden">
                             
@@ -26,6 +28,11 @@
                                 
                             </div>
                         </div>
+                        {{ if image }}
+                        <figure class="aspect-[3/2] mb-4">
+                            {{ partial:statamic-peak-tools::components/picture :image="image" sizes="(min-width: 1280px) 430px, (min-width: 768px) 30vw, 90vw" aspect_ratio="3/2" lazy="true" cover="true" }}
+                        </figure>
+                        {{ /if }}
                         <a href="{{ url }}">
                         {{ partial:typography/h2 :content="title" class="pt-2 text-lg font-semibold text-gray-900 decoration-primary group-hover:underline decoration-2 underline-offset-2 group-hover:text-primary " }}
                         </a>
