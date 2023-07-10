@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10f7402366fd32cf7eb949b33df9696d",
+    "content-hash": "28e41c5eb055814a45a0870787a234d3",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1123,6 +1123,113 @@
                 }
             ],
             "time": "2023-01-14T14:17:03+00:00"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "239e257605e2141265b429e40987b2ee51bba4b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/239e257605e2141265b429e40987b2ee51bba4b4",
+                "reference": "239e257605e2141265b429e40987b2ee51bba4b4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ezyang/htmlpurifier": "^4.16",
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.16.0"
+            },
+            "time": "2023-03-20T10:51:12+00:00"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0"
+            },
+            "require-dev": {
+                "cerdic/css-tidy": "^1.7 || ^2.0",
+                "simpletest/simpletest": "dev-master"
+            },
+            "suggest": {
+                "cerdic/css-tidy": "If you want to use the filter 'Filter.ExtractStyleBlocks'.",
+                "ext-bcmath": "Used for unit conversion and imagecrash protection",
+                "ext-iconv": "Converts text to and from non-UTF-8 encodings",
+                "ext-tidy": "Used for pretty-printing HTML"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ],
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "exclude-from-classmap": [
+                    "/library/HTMLPurifier/Language/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.16.0"
+            },
+            "time": "2022-09-18T07:06:19+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -5273,21 +5380,22 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.9.1",
+            "version": "v4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "7efe640dd100fe711bf090bbfc410e9821470749"
+                "reference": "5261b3ba40707d013eeeedf6e8e9b225b22b5f8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/7efe640dd100fe711bf090bbfc410e9821470749",
-                "reference": "7efe640dd100fe711bf090bbfc410e9821470749",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/5261b3ba40707d013eeeedf6e8e9b225b22b5f8f",
+                "reference": "5261b3ba40707d013eeeedf6e8e9b225b22b5f8f",
                 "shasum": ""
             },
             "require": {
                 "ajthinking/archetype": "^1.0.3",
                 "composer/composer": "^1.10.22 || ^2.2.12",
+                "enshrined/svg-sanitize": "^0.16.0",
                 "ext-json": "*",
                 "facade/ignition-contracts": "^1.0",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
@@ -5362,7 +5470,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.9.1"
+                "source": "https://github.com/statamic/cms/tree/v4.10.0"
             },
             "funding": [
                 {
@@ -5370,7 +5478,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-27T14:43:20+00:00"
+            "time": "2023-07-05T16:32:24+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -5490,16 +5598,16 @@
         },
         {
             "name": "studio1902/statamic-peak-browser-appearance",
-            "version": "v3.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-browser-appearance.git",
-                "reference": "47fffbd9831cc8bf0b332e91ea271e9a37a49b46"
+                "reference": "6ecff6753f459d56d8146d8a62252b68effd3fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-browser-appearance/zipball/47fffbd9831cc8bf0b332e91ea271e9a37a49b46",
-                "reference": "47fffbd9831cc8bf0b332e91ea271e9a37a49b46",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-browser-appearance/zipball/6ecff6753f459d56d8146d8a62252b68effd3fab",
+                "reference": "6ecff6753f459d56d8146d8a62252b68effd3fab",
                 "shasum": ""
             },
             "type": "library",
@@ -5522,7 +5630,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-browser-appearance/issues",
-                "source": "https://github.com/studio1902/statamic-peak-browser-appearance/tree/v3.1"
+                "source": "https://github.com/studio1902/statamic-peak-browser-appearance/tree/v3.1.1"
             },
             "funding": [
                 {
@@ -5530,7 +5638,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-14T10:18:17+00:00"
+            "time": "2023-06-14T10:20:35+00:00"
         },
         {
             "name": "studio1902/statamic-peak-commands",
@@ -5578,16 +5686,16 @@
         },
         {
             "name": "studio1902/statamic-peak-seo",
-            "version": "v2.3",
+            "version": "v2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-seo.git",
-                "reference": "f7eb627d6ac1d7e56fcf38af26d2e6829c202eaf"
+                "reference": "e0318646534e52c0e814d306d436c1b574adda47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/f7eb627d6ac1d7e56fcf38af26d2e6829c202eaf",
-                "reference": "f7eb627d6ac1d7e56fcf38af26d2e6829c202eaf",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/e0318646534e52c0e814d306d436c1b574adda47",
+                "reference": "e0318646534e52c0e814d306d436c1b574adda47",
                 "shasum": ""
             },
             "type": "library",
@@ -5610,7 +5718,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
-                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v2.3"
+                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v2.6.2"
             },
             "funding": [
                 {
@@ -5618,7 +5726,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-14T10:16:37+00:00"
+            "time": "2023-07-04T08:55:45+00:00"
         },
         {
             "name": "studio1902/statamic-peak-tools",
