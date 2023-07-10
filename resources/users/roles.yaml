@@ -51,6 +51,15 @@ editor:
     - 'edit other authors entradas entries'
     - 'publish other authors entradas entries'
     - 'delete other authors entradas entries'
+    - 'view recursos entries'
+    - 'edit recursos entries'
+    - 'create recursos entries'
+    - 'delete recursos entries'
+    - 'publish recursos entries'
+    - 'reorder recursos entries'
+    - 'edit other authors recursos entries'
+    - 'publish other authors recursos entries'
+    - 'delete other authors recursos entries'
 marketeer:
   title: Marketeer
   permissions:

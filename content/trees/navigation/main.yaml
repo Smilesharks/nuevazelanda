@@ -15,8 +15,17 @@ tree:
         title: 'Al llegar'
         url: /entradas/estado/al-llegar
   -
-    id: 1ecc9fdc-43fb-48ea-bad5-b66a5dd863d4
+    id: a403675a-0f46-4d40-91d2-05db1c2d01bc
     title: Recursos
+    children:
+      -
+        id: 37ea116b-e2b6-489c-ad72-f6df20953c08
+        title: 'Cover Letter'
+        url: /recursos/guia-cover-letter-nueva-zelanda
+      -
+        id: afff0212-a250-4e55-9ae3-c8001602b9e7
+        title: Resume
+        url: /recursos/guia-de-cv
   -
     id: b7ab9d81-b0d1-42af-85fa-ecd1aaba6407
     title: Actividades

@@ -12,13 +12,13 @@ page_builder:
         content:
           -
             type: text
-            text: '404 Page not found'
+            text: '404 Página no encontrada'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The page you requested is not available (anymore).'
+            text: 'La página solicitada ya no está disponible.'
     type: article
     enabled: true
 seo_noindex: true
