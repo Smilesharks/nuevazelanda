@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Enchufe tipo I para Nueva Zelanda'
 size: 63055
 last_modified: 1688890005
 width: 1024

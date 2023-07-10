@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Wise screenshot'
 size: 41424
 last_modified: 1688886562
 width: 630

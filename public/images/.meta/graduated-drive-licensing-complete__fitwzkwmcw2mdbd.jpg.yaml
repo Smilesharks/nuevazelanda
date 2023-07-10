@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Hoja de ruta hacia el carné de conducir'
 size: 85946
 last_modified: 1688892645
 width: 900
