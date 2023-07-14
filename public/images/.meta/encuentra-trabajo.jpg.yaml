@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Encuentra trabajo'
 size: 152623
 last_modified: 1688996467
 width: 1024

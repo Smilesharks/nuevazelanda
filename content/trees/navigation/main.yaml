@@ -14,6 +14,10 @@ tree:
         id: 56776541-2766-47c6-b6bb-eb1f8bdcaf15
         title: 'Al llegar'
         url: /entradas/estado/al-llegar
+      -
+        id: aad8c0e5-3f70-48eb-a46c-d84df43939de
+        title: 'Envía tu guía'
+        url: 'https://forms.gle/FZNNNYvWnanQfavy6'
   -
     id: a403675a-0f46-4d40-91d2-05db1c2d01bc
     title: Recursos

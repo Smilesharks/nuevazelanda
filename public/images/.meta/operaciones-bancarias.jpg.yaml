@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Organiza tus operaciones Bancarias'
 size: 145091
 last_modified: 1688996124
 width: 1024

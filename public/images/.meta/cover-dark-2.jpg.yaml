@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Plantillas resumen'
 size: 204718
 last_modified: 1688972280
 width: 1280

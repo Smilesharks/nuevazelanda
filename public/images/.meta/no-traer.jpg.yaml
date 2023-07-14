@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Cosas que no traer'
 size: 194158
 last_modified: 1688995564
 width: 1024

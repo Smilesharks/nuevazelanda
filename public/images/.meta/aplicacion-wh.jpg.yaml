@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Aplica a la Working Holliday'
 size: 127238
 last_modified: 1688996073
 width: 1024

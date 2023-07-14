@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'La guía NZ'
 size: 336655
 last_modified: 1687959908
 width: 2251

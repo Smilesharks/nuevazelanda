@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Entiende el acento kiwi'
 size: 165097
 last_modified: 1688995705
 width: 1024

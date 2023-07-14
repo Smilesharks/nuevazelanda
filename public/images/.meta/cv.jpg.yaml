@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Plantilla de CV'
 size: 141558
 last_modified: 1688995278
 width: 1024

@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Cuenta de Banco'
 size: 201169
 last_modified: 1688995988
 width: 1024

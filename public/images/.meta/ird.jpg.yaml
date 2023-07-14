@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Obten tu numero de IRD'
 size: 124297
 last_modified: 1688995464
 width: 1024

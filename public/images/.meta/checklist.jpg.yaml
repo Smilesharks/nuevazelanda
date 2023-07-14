@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Checklist de cosas qeu empacar'
 size: 205904
 last_modified: 1688995388
 width: 1024
