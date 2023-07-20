@@ -1,0 +1,40 @@
+title: 'Entry Actividades'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: subtitle
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Subtitle
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: select_actividades
+    field:
+      mode: default
+      create: true
+      collections:
+        - actividades
+      type: entries
+      display: 'Select Actividades'
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

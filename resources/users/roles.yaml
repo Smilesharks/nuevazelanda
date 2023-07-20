@@ -60,6 +60,15 @@ editor:
     - 'edit other authors recursos entries'
     - 'publish other authors recursos entries'
     - 'delete other authors recursos entries'
+    - 'view actividades entries'
+    - 'edit actividades entries'
+    - 'create actividades entries'
+    - 'delete actividades entries'
+    - 'publish actividades entries'
+    - 'reorder actividades entries'
+    - 'edit other authors actividades entries'
+    - 'publish other authors actividades entries'
+    - 'delete other authors actividades entries'
 marketeer:
   title: Marketeer
   permissions:

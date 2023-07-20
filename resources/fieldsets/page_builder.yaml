@@ -33,6 +33,12 @@ fields:
               fields:
                 -
                   import: entry_list
+            entry_actividades:
+              display: 'Entry List'
+              instructions: null
+              fields:
+                -
+                  import: entry_actividades
             faq:
               display: FAQ
               instructions: 'List frequently asked questions in an accordion.'
@@ -77,6 +83,12 @@ fields:
               fields:
                 -
                   import: article
+            index_content:
+              display: 'Index content'
+              instructions: 'Render the currently mounted entries if available.'
+              fields:
+                -
+                  import: index_content
       instructions_position: above
       visibility: visible
       previews: true

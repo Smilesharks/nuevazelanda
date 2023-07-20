@@ -4,3 +4,15 @@ tabs:
     sections:
       -
         display: General
+        fields:
+          -
+            handle: target_blank
+            field:
+              default: false
+              type: toggle
+              display: 'Open in new window'
+              icon: toggle
+              listable: true
+              instructions_position: above
+              visibility: visible
+              hide_display: false

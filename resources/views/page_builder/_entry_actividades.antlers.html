@@ -1,0 +1,43 @@
+{{# @name Entry List @desc The Entry List page builder block. @set page.page_builder.entry_list #}}
+
+<!-- /page_builder/_entry_list.antlers.html -->
+
+<section class="container max-w-5xl px-4 pb-12 mx-auto antialiased">
+    <div class="col-span-12 sm:col-span-3">
+        <div class="before:-skew-x-12 sm:text-left mb-14 before:block before:w-24 sm:before:h-2 before:h-1 before:mb-5 sm:before:mx-0 before:dark:bg-yellow-400">
+            {{ title ?= { partial:typography/h2 as="h1" :content="title" class="uppercase md:col-span-12" } }}
+            <span class="font-mono text-sm font-bold uppercase">{{ subtitle }}</span>
+        </div>
+    </div>
+    {{ select_actividades as="items" }}
+
+    <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
+        {{ items }}
+
+        <article class="relative flex flex-col w-full p-6 transition rounded-lg ring-1 ring-gray-950/5 hover:bg-yellow-50 sm:p-8">
+            <h3>
+                <a target="_blank" href="{{ link }}"
+                    ><span class="absolute inset-0 rounded-lg"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                        />
+                    </svg>
+                </a>
+            </h3>
+            <p class="flex mt-6 text-sm gap-x-2 text-gray-950">
+                <time class="font-semibold">2023</time>
+                <span class="text-gray-300" aria-hidden="true">/</span>
+                <span>{{ tipo_de_actividad:label }}</span>
+            </p>
+            <p class="mt-6 font-mono text-xl font-bold text-gray-600">{{ title }}</p>
+            <p class="mt-4 text-sm text-gray-600">{{ descripcion | strip_tags=('p') }}</p>
+        </article>
+
+        {{ /items }}
+    </div>
+    {{ /select_actividades }}
+</section>
+<!-- End: /page_builder/_entry_list.antlers.html -->

@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688990465
+updated_at: 1689834025
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -20,14 +20,14 @@ page_builder:
         id: ljjdo79j
         label: Suscríbete
         link_type: url
-        target_blank: false
+        target_blank: true
         url: 'https://arielcerda.us18.list-manage.com/subscribe?u=9251d9deccc6863333a4ee019&id=a0f39a7fed'
         button_type: button
       -
         id: ljk0zhzg
         label: 'Visita mi canal'
         link_type: url
-        target_blank: false
+        target_blank: true
         url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
         button_type: inline
     textarea: 'Tomar la decisión de viajar a un lugar tan lejano no es fácil, es por eso que he creado esta guía completamente gratuita con la información que he recopilado a lo largo de los 5 años que he vivido en Nueva Zelanda y que iré actualizando periódicamente para que el comienzo de tu aventura sea mucho más fácil.'

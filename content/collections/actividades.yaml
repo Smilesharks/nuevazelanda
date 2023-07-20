@@ -1,0 +1,11 @@
+title: Actividades
+route: '/{mount}/{slug}'
+layout: layout
+template: default
+revisions: false
+date: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+mount: b3ae5885-d86e-4ad0-9ccc-af3a3ccd705f
