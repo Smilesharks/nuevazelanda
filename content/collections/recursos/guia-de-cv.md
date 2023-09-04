@@ -142,6 +142,25 @@ page_builder:
           -
             type: text
             text: 'Recuerda que tu CV es tu carta de presentación, por lo que es esencial que lo elabores de manera efectiva para resaltar tus fortalezas y habilidades relevantes para el puesto. Revisa detenidamente tu CV antes de enviarlo para corregir cualquier error gramatical o de ortografía. ¡Buena suerte en tu búsqueda de empleo! Si tienes alguna otra pregunta, no dudes en hacerla.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Puedes copiar este archivo como guía para tu CV:'
+          -
+            type: hardBreak
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://bit.ly/resumenz'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'https://bit.ly/resumenz'
     type: article
     enabled: true
 seo_noindex: false
@@ -150,5 +169,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688977730
+updated_at: 1692428897
 ---

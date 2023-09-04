@@ -232,37 +232,31 @@ page_builder:
             content:
               -
                 type: text
-                text: 'I am applying for the [Job Title] role at [Company Name].'
+                text: "I am writing to express my interest in the Kitchenhand position at [Company Name]. With experience in fast-paced kitchens and a passion for culinary arts, I am eager to contribute to your team's success."
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'En el primer párrafo, el propósito de una carta de presentación es ofrecer contexto y antecedentes de por qué se presenta su currículum para este puesto. Cuente su historia. ¿Por qué presentas tu aplicacion? ¿Quieres dar el siguiente paso? ¿Se ha mudado recientemente? ¿Desea expandirse a un nuevo sector? ¿Te reincorporas al mercado laboral? Escríbelo de la forma más natural posible, como si estuvieras hablando con un amigo.'
+                text: 'I have a proven track record in food preparation, cleanliness, and teamwork from my time at [Previous Restaurant/Job]. My adaptability and dedication to excellence make me a strong candidate for this role.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'En el segundo párrafo, explica por qué has elegido este puesto en concreto. Por ejemplo: Me entusiasma este puesto porque [motivo real por el que el anuncio ha captado tu interés]. Puede estar relacionado con el sector, con algo sobre la empresa que hayas aprendido investigando o con cualquier tipo de conexión personal, por ejemplo, que seas cliente.'
+                text: "I am drawn to [Company Name]'s commitment to innovation and sustainability in the culinary industry. I am excited about the prospect of joining a team that shares my values."
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Hable de sus principales competencias y experiencia y de cómo se relacionan con lo que busca la empresa. Remítase al anuncio y extraiga de su currículum un par de competencias o logros recientes que considere más relevantes.'
+                text: 'Thank you for considering my application. I have attached my resume and look forward to the possibility of discussing my fit for the role in more detail.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Thank you for considering my application. I look forward to hearing from you.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Kind Regards, Peter B. Parker'
+                text: 'Sincerely, Peter B. Parker'
     type: article
     enabled: true
 seo_noindex: false
@@ -271,5 +265,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1688977235
+updated_at: 1692430615
 ---

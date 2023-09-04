@@ -13,10 +13,10 @@ data:
       type: github
       enabled: false
     -
-      id: ljsfdeih
-      handle: smilesharks
-      prefix: 'https://www.twitter.com/'
-      type: twitter
+      id: ljsfe6rq
+      handle: 'channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
+      prefix: 'https://www.youtube.com/'
+      type: youtube
       enabled: true
     -
       id: ljsfdswy
@@ -25,14 +25,14 @@ data:
       type: instagram
       enabled: true
     -
-      id: ljsfe6rq
-      handle: 'channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
-      prefix: 'https://www.youtube.com/'
-      type: youtube
-      enabled: true
-    -
       id: ljsfs2yi
       handle: smilesharks
       prefix: 'https://www.threads.net/@'
       type: threads
+      enabled: true
+    -
+      id: ljsfdeih
+      handle: smilesharks
+      prefix: 'https://www.twitter.com/'
+      type: twitter
       enabled: true

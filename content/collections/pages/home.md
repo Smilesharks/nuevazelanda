@@ -70,6 +70,6 @@ page_builder:
     type: entry_list
     enabled: true
     subtitle: '¿y ahora que?'
-seo_title: 'Aventura Nueva Zelanda'
+seo_title: 'La Guía Nueva Zelanda'
 seo_description: 'Encuentra toda la información que necesitas para tu aventura en Nueva Zelanda'
 ---
