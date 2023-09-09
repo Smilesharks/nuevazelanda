@@ -18,13 +18,13 @@
                 underline motion-safe:transition
                 {{ inverted
                     ? 'text-white decoration-white focus-visible:ring-white'
-                    : 'text-neutral decoration-primary focus-visible:ring-primary'
+                    : 'text-gray decoration-gray-800 focus-visible:ring-gray-800'
                 }}
             {{ else }}
                 inline-flex items-center py-3 px-4 rounded leading-none no-underline select-none whitespace-nowrap motion-safe:transition
                 {{ inverted
-                    ? 'bg-white text-primary  focus-visible:ring-white'
-                    : 'bg-primary text-white hover:bg-yellow-500 focus-visible:ring-primary'
+                    ? 'bg-white text-gray-800  focus-visible:ring-white'
+                    : 'bg-gray-800 text-white hover:bg-yellow-500 focus-visible:ring-gray-800'
                 }}
             {{ /if }}
             {{ class }}
