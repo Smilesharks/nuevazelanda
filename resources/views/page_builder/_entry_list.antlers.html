@@ -10,7 +10,7 @@
 
     {{ select_entradas  as="items" }}
     <ol class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <div class="relative p-8 overflow-hidden text-gray-800 bg-yellow-200 border rounded-lg border-yellow-500/20 sm:text-left">
+        <div class="relative p-8 overflow-hidden text-gray-800 {{ switch between='bg-yellow-200 | bg-yellow-300' }}  border rounded-lg border-yellow-500/20 sm:text-left">
             {{ title ?= { partial:typography/h2 as="h2" :content="title" class=" md:col-span-12" } }}
             <span class="text-sm font-bold ">{{ subtitle }}</span>
             
