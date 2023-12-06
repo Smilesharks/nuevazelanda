@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1689834025
+updated_at: 1700532611
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -14,11 +14,11 @@ page_builder:
     id: ljjad8pz
     type: hero_home
     enabled: true
-    title: 'Encuentra toda la información que necesitas para tu aventura en <strong>Nueva Zelanda</strong>'
+    title: 'La información que necesitas para tu aventura en Nueva Zelanda'
     buttons:
       -
         id: ljjdo79j
-        label: Suscríbete
+        label: 'Suscríbete al newsletter'
         link_type: url
         target_blank: true
         url: 'https://arielcerda.us18.list-manage.com/subscribe?u=9251d9deccc6863333a4ee019&id=a0f39a7fed'
@@ -30,7 +30,7 @@ page_builder:
         target_blank: true
         url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
         button_type: inline
-    textarea: 'Tomar la decisión de viajar a un lugar tan lejano no es fácil, es por eso que he creado esta guía completamente gratuita con la información que he recopilado a lo largo de los 5 años que he vivido en Nueva Zelanda y que iré actualizando periódicamente para que el comienzo de tu aventura sea mucho más fácil.'
+    textarea: 'Decidir aventurarse a venir a Nueva Zelanda puede ser desafiante, por eso comparto contigo esta guía que reúne toda la valiosa información que he acumulado durante 5 años en Nueva Zelanda.'
   -
     id: lji52083
     type: entry_list
