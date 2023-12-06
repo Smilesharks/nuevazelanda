@@ -20,7 +20,7 @@ Dump your .env values here with sensitive data removed.
 Dump your .env values here with sensitive data removed. The following is a production example that uses full static caching:
 APP_NAME="Nueva Zelanda"
 APP_ENV=production
-APP_KEY="base64:++h7T9eahujIjC+Gg7G6/nSXsPxesc5xidtqepgoDT4="
+APP_KEY=""
 APP_DEBUG=false
 APP_URL=
 
