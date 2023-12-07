@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1700532611
+updated_at: 1701949383
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -28,9 +28,9 @@ page_builder:
         label: 'Visita mi canal'
         link_type: url
         target_blank: true
-        url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
+        url: 'https://bit.ly/3Tac4kB'
         button_type: inline
-    textarea: 'Decidir aventurarse a venir a Nueva Zelanda puede ser desafiante, por eso comparto contigo esta guía que reúne toda la valiosa información que he acumulado durante 5 años en Nueva Zelanda.'
+    textarea: 'Decidir aventurarse a venir a Nueva Zelanda puede ser desafiante, por eso comparto contigo esta guía que reúne toda información que he acumulado durante 5 años en Nueva Zelanda, y del cual tu también puedes ser parte.'
   -
     id: lji52083
     type: entry_list
@@ -57,7 +57,7 @@ page_builder:
     enabled: true
     title: Suscribete
     description: 'Suscríbete a mi canal para apoyar el proyecto y pasa a saludar.'
-    url: 'https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1'
+    url: 'https://bit.ly/3Tac4kB'
   -
     id: ljijgzev
     title: 'Al llegar'

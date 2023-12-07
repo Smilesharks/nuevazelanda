@@ -34,7 +34,6 @@
     <div class="grid self-start gap-8 fluid-container md:grid-cols-12 lg:-mb-12">
         <header class="md:col-span-8 md:col-start-3">
             
-            {{# {{ partial:typography/time :content="date" class="block text-center" }} #}}
             <div class="text-center">
                 {{ estado limit="1" }}
                 <a class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full" href="{{ url }}">{{ title }}</a>
@@ -43,6 +42,7 @@
 
 
             {{ partial:typography/h1 :content="title" class="mt-4 text-center" }}
+            <div class="flex justify-center w-full mx-auto mt-2">{{ partial:snippets/share_buttons }}</div>
 
             {{ if image }}
             <figure class="aspect-[3/2] mt-4">
@@ -50,42 +50,38 @@
             </figure>
             {{ /if }}
         </header>
-        <div class="md:col-span-8 item-center md:col-start-3">
-            <div class="flex mx-auto text-center item-center w-fulll">
-                {{# {{ partial:snippets/share_buttons }} #}}
-                <div class="inline-flex items-center justify-center w-full p-5 space-x-4 text-base font-medium font-bold text-gray-500 rounded-lg bg-yellow-50">
-                    <div class="mt-1">Comparte:</div>
-                    {{ partial:snippets/share_buttons }}
-                </div> 
-                <div class="inline-flex items-center justify-center w-full p-5 space-x-4 text-base font-medium font-bold text-gray-500 rounded-lg bg-yellow-50">
-                    <div class="mt-1">Colaborar:</div>
-                    <div class="flex items-center space-x-4 [&>a>svg]:w-6 [&>a>svg]:h-6 [&>a>svg]:text-yellow-500">
-                        <a href="https://github.com/Smilesharks/nuevazelanda/blob/main/content/collections/entradas/{{ date format="Y-m-d" }}.{{ title | slugify }}.md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler hover:text-yellow-800 icon-tabler-brand-github-filled"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" stroke-width="0" fill="currentColor" /></svg>
-                        </a>
-                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSewVRXWIXidZo6ch0A_QEnhHlNbqPshTzVXh7QH5DMv9yBveQ/viewform?usp=pp_url&entry.1960303448=Editar+{{ title | slugify | replace('-', '+') }}&entry.839337160=Mi+colaboracion+&#10;{{ permalink }}{{ url }}">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler hover:text-yellow-800 icon-tabler-edit"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" /><path d="M16 5l3 3" /></svg>
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>            
-        </div>
     </div>
-
     <section class="grid grid-cols-12 fluid-container">
         {{ partial:typography/prose as="article" class="contents" }}
             {{ article }}
                 {{ partial src="components/{type}" }}
             {{ /article }}
         {{ /partial:typography/prose }}
+        <div class="mt-6 size-md">
+            <div class="flex items-center w-full col-span-12 space-x-2 text-sm md:col-start-3">
+                <div class="text-gray-400 ">Sugiere edicion:</div>
+                <div class="flex items-center text-xs space-x-4 text-yellow-600
+                    [&>a]:flex [&>a]:items-center [&>a]:px-2 [&>a]:py-1 [&>a]:space-x-1 [&>a]:bg-yellow-100 [&>a]:rounded-md [&>a]:ring-yellow-200 [&>a]:ring-1
+                    [&>a>svg]:h-4 [&>a>svg]:text-yellow-500">
+                    <a class="hover:text-yellow-700 hover:bg-yellow-300" target="_blank" href="https://github.com/Smilesharks/nuevazelanda/blob/main/content/collections/entradas/{{ date format="Y-m-d" }}.{{ title | slugify }}.md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler hover:text-yellow-800 icon-tabler-brand-github-filled"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" stroke-width="0" fill="currentColor" /></svg>
+                        <span>Github</span>
+                    </a>
+                    <a class="hover:text-yellow-700 hover:bg-yellow-300" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSewVRXWIXidZo6ch0A_QEnhHlNbqPshTzVXh7QH5DMv9yBveQ/viewform?usp=pp_url&entry.1960303448=Editar+{{ title | slugify | replace('-', '+') }}&entry.839337160=Mi+colaboracion+&#10;{{ permalink }}{{ url }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler hover:text-yellow-800 icon-tabler-edit"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" /><path d="M16 5l3 3" /></svg>
+                        <span>Edicion</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
     
 
     
 
-    <section class="grid grid-cols-12 fluid-container">
+    <section class="grid grid-cols-12 fluid-container ">
         <div class="size-md">
+            
             <div class="w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 ">
                 <h5 class="mb-3 text-base font-bold text-gray-900 md:text-xl ">
                     Apoya este proyecto
@@ -108,7 +104,7 @@
                     
                     
                     <li>
-                        <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1" class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-red-50 hover:bg-gray-100 group hover:shadow ">
+                        <a href="https://bit.ly/3Tac4kB" class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-red-50 hover:bg-gray-100 group hover:shadow ">
                             <svg class="h-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
                             <span class="flex-1 ml-3 whitespace-nowrap">Suscríbete a Youtube</span>
                         </a>

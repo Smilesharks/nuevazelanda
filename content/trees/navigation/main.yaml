@@ -16,8 +16,10 @@ tree:
         url: /entradas/estado/al-llegar
       -
         id: aad8c0e5-3f70-48eb-a46c-d84df43939de
-        title: 'Envía tu guía'
+        title: Colabora
         url: 'https://forms.gle/FZNNNYvWnanQfavy6'
+        data:
+          target_blank: true
   -
     id: a403675a-0f46-4d40-91d2-05db1c2d01bc
     title: Recursos
