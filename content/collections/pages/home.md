@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Inicio
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1701949383
+updated_at: 1702727101
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -67,6 +67,7 @@ page_builder:
       - 4466e579-6cf5-403f-96d9-926662456068
       - ce22c753-7ce6-4f94-8bdf-1c8074bf9b7c
       - 6d59d905-9c70-496b-a098-72d6324d6109
+      - f4e08128-a111-456b-8256-44832a80d151
     type: entry_list
     enabled: true
     subtitle: '¿y ahora que?'
