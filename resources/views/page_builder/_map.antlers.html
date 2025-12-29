@@ -5,146 +5,364 @@
 #}}
 
 <!-- /page_builder/_map.antlers.html -->
-<section class="grid gap-8 fluid-container md:grid-cols-12">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1wTbhd56G7zWCasF0ybPQRWC2rXQvLsg&ehbc=2E312F" width="640"
-        height="480"></iframe>
-
-</section>
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
-
-
-{{# templates/default.antlers.html or similar #}}
-<div x-data="kmlMap()" x-init="initMap()" class="space-y-4">
-    <!-- Map container -->
-    <div id="map" class="w-full rounded-lg shadow-lg h-96"></div>
-
-    <!-- Loading indicator -->
-    <div x-show="loading" class="py-4 text-center">
-        <div class="inline-block w-8 h-8 border-b-2 border-blue-500 rounded-full animate-spin"></div>
-        <p class="mt-2 text-gray-600">Loading map data...</p>
-    </div>
-
-    <!-- Error message -->
-    <div x-show="error" class="p-4 border border-red-200 rounded-lg bg-red-50">
-        <p class="text-red-600" x-text="error"></p>
-    </div>
-
-    <!-- Location cards -->
-    <div x-show="!loading && locations.length > 0" class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <template x-for="location in locations" :key="location.id">
-            <div class="p-4 transition-shadow bg-white border border-gray-200 rounded-lg shadow cursor-pointer hover:shadow-xl"
-                @click="focusOnLocation(location)">
-                <h3 class="text-lg font-semibold text-gray-900" x-text="location.name"></h3>
-                <p class="mt-1 text-sm text-gray-600" x-text="location.description"></p>
-            </div>
-        </template>
-    </div>
-</div>
-
-<script>
-    function kmlMap() {
-        return {
-            map: null,
-            kmlLayer: null,
-            locations: [],
-            loading: true,
-            error: null,
-
-            initMap() {
-                // Check if Leaflet is loaded
-                if (typeof L === 'undefined') {
-                    this.error = 'Leaflet library not loaded. Please check your scripts.';
-                    this.loading = false;
-                    return;
-                }
-
-                // Initialize map - centered on New Zealand
-                this.map = L.map('map').setView([-41.2865, 174.7762], 5);
-
-                // Add OpenStreetMap tiles
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© OpenStreetMap contributors',
-                    maxZoom: 19
-                }).addTo(this.map);
-
-                // Load KML
-                this.loadKML();
-            },
-
-            loadKML() {
-                // Check if Omnivore is loaded
-                if (typeof omnivore === 'undefined') {
-                    this.error = 'Leaflet Omnivore not loaded. Check scripts.';
-                    this.loading = false;
-                    return;
-                }
-
-                this.kmlLayer = omnivore.kml('/files/nz_map.kml')
-                    .on('ready', () => {
-                        this.loading = false;
-
-                        // Zoom to fit all markers
-                        if (this.kmlLayer.getBounds().isValid()) {
-                            this.map.fitBounds(this.kmlLayer.getBounds());
-                        }
-
-                        // Extract locations
-                        this.extractLocations();
-                    })
-                    .on('error', (e) => {
-                        this.loading = false;
-                        this.error = 'Could not load KML file. Check the file path: /files/nz_map.kml';
-                        console.error('KML Error:', e);
-                    })
-                    .addTo(this.map);
-            },
-
-            extractLocations() {
-                this.locations = [];
-
-                this.kmlLayer.eachLayer((layer) => {
-                    if (layer.feature && layer.feature.properties) {
-                        const props = layer.feature.properties;
-
-                        this.locations.push({
-                            id: this.locations.length,
-                            name: props.name || 'Unnamed Location',
-                            description: props.description || 'No description available',
-                            layer: layer
-                        });
-
-                        // Add popup to marker
-                        layer.bindPopup(`
-              <div class="p-3 min-w-[200px]">
-                <h3 class="mb-2 text-lg font-bold">${props.name || 'Location'}</h3>
-                <p class="text-sm text-gray-700">${props.description || ''}</p>
-              </div>
-            `);
-                    }
-                });
-
-                console.log(`Loaded ${this.locations.length} locations`);
-            },
-
-            focusOnLocation(location) {
-                // Get coordinates and zoom to location
-                const latLng = location.layer.getLatLng();
-                this.map.setView(latLng, 15);
-
-                // Open popup
-                location.layer.openPopup();
-            }
-        }
-    }
-</script>
-
-
-
-
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
 
+<section class="py-8 fluid-container">
+    <div x-data="kmlMap()" x-init="initMap()">
+
+        <!-- Header Section -->
+        <div class="mb-6">
+            <h1 class="mb-3 text-4xl font-bold text-gray-900">Mapa Interactivo de Nueva Zelanda</h1>
+            <p class="mb-4 text-lg text-gray-600">
+                Hemos creado este mapa para compartir toda la información que tenemos sobre Nueva Zelanda
+                y hacer más fácil tu viaje en este país. Explora lugares de trabajo, rutas, avistamiento de fauna y
+                actividades.
+            </p>
+            {{ partial:components/button label="Ver en Google My Maps" link_type="url" target_blank="true" url="https://www.google.com/maps/d/viewer?mid=1wTbhd56G7zWCasF0ybPQRWC2rXQvLsg&usp=sharing" }}
+        </div>
+
+        <!-- Loading indicator -->
+        <div x-show="loading" class="py-8 text-center">
+            <div class="inline-block w-8 h-8 border-b-2 border-blue-500 rounded-full animate-spin"></div>
+            <p class="mt-2 text-gray-600">Cargando mapa y ubicaciones...</p>
+        </div>
+
+        <!-- Error message -->
+        <div x-show="error" class="p-4 mb-6 border border-red-200 rounded-lg bg-red-50">
+            <p class="text-red-600" x-text="error"></p>
+        </div>
+
+        <!-- Map and Sidebar Layout -->
+        <div x-show="!loading" class="grid gap-6 lg:grid-cols-3">
+
+            <!-- Map Container (2/3 width on large screens) -->
+            <div class="lg:col-span-2">
+                <div id="map" class="w-full rounded-lg shadow-lg" style="height: 700px;"></div>
+            </div>
+
+            <!-- Locations List Sidebar (1/3 width on large screens) -->
+            <div class="lg:col-span-1">
+                <div class="sticky overflow-hidden bg-white border border-gray-200 rounded-lg shadow-lg top-6">
+                    <!-- Sidebar Header -->
+                    <div class="p-4 border-b border-gray-200 bg-gray-50">
+                        <h3 class="text-lg font-bold text-gray-900">
+                            Ubicaciones
+                            <span class="ml-2 text-sm font-normal text-gray-600"
+                                x-text="`(${locations.length})`"></span>
+                        </h3>
+                    </div>
+
+                    <!-- Scrollable List -->
+                    <div class="overflow-y-auto" style="max-height: 640px;">
+                        <template x-for="(category, index) in Object.keys(categoryColors)" :key="index">
+                            <div x-show="locations.filter(loc => loc.category === category).length > 0">
+
+                                <!-- Category Header (Accordion Toggle) -->
+                                <div class="sticky top-0 z-10 px-4 py-3 transition-colors bg-gray-100 border-b border-gray-200 cursor-pointer hover:bg-gray-200"
+                                    @click="toggleCategory(category)">
+                                    <div class="flex items-center gap-2">
+                                        <!-- Expand/Collapse Icon -->
+                                        <svg class="w-4 h-4 text-gray-600 transition-transform"
+                                            :class="{ 'rotate-90': expandedCategories[category] }" fill="none"
+                                            stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+
+                                        <!-- Color Indicator -->
+                                        <div
+                                            :style="`background-color: ${categoryColors[category].color}; width: 12px; height: 12px; border-radius: 50%;`">
+                                        </div>
+
+                                        <!-- Category Name -->
+                                        <h4 class="text-sm font-bold text-gray-900" x-text="category"></h4>
+
+                                        <!-- Count Badge -->
+                                        <span class="ml-auto text-xs text-gray-500"
+                                            x-text="locations.filter(loc => loc.category === category).length"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Location Items (Collapsible) -->
+                                <div x-show="expandedCategories[category]"
+                                    x-transition:enter="transition ease-out duration-200"
+                                    x-transition:enter-start="opacity-0 transform -translate-y-2"
+                                    x-transition:enter-end="opacity-100 transform translate-y-0"
+                                    x-transition:leave="transition ease-in duration-150"
+                                    x-transition:leave-start="opacity-100 transform translate-y-0"
+                                    x-transition:leave-end="opacity-0 transform -translate-y-2">
+                                    <template x-for="location in locations.filter(loc => loc.category === category)"
+                                        :key="location.id">
+                                        <div class="relative border-b border-gray-100 cursor-pointer hover:bg-gray-50"
+                                            @click="focusOnLocation(location)">
+                                            <!-- Color indicator -->
+                                            <div class="absolute top-0 bottom-0 left-0 w-1"
+                                                :style="`background-color: ${location.categoryStyle.color};`"></div>
+
+                                            <div class="px-4 py-3 pl-5">
+                                                <h5 class="text-sm font-semibold text-gray-900 line-clamp-1"
+                                                    x-text="location.name"></h5>
+                                                <p class="mt-1 text-xs text-gray-600 line-clamp-2"
+                                                    x-text="location.description"></p>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function kmlMap() {
+            return {
+                map: null,
+                kmlLayer: null,
+                locations: [],
+                categories: {},
+                loading: true,
+                error: null,
+                expandedCategories: {},
+                categoryColors: {
+                    'Trabajo: Horticultura y frutales': {
+                        color: '#10b981',
+                        bg: 'bg-emerald-100',
+                        text: 'text-emerald-800',
+                        border: 'border-emerald-300'
+                    },
+                    'Trabajo: Ski y nieve': {
+                        color: '#3b82f6',
+                        bg: 'bg-blue-100',
+                        text: 'text-blue-800',
+                        border: 'border-blue-300'
+                    },
+                    'Trabajo: Agencias de reclutamiento': {
+                        color: '#8b5cf6',
+                        bg: 'bg-violet-100',
+                        text: 'text-violet-800',
+                        border: 'border-violet-300'
+                    },
+                    'Trabajo: Ganadería': {
+                        color: '#f59e0b',
+                        bg: 'bg-amber-100',
+                        text: 'text-amber-800',
+                        border: 'border-amber-300'
+                    },
+                    'Trabajo: Otros sectores': {
+                        color: '#ec4899',
+                        bg: 'bg-pink-100',
+                        text: 'text-pink-800',
+                        border: 'border-pink-300'
+                    },
+                    'Avistamiento de fauna': {
+                        color: '#14b8a6',
+                        bg: 'bg-teal-100',
+                        text: 'text-teal-800',
+                        border: 'border-teal-300'
+                    },
+                    'Rutas y senderos': {
+                        color: '#84cc16',
+                        bg: 'bg-lime-100',
+                        text: 'text-lime-800',
+                        border: 'border-lime-300'
+                    },
+                    'Actividades y tours': {
+                        color: '#f97316',
+                        bg: 'bg-orange-100',
+                        text: 'text-orange-800',
+                        border: 'border-orange-300'
+                    }
+                },
+
+                initMap() {
+                    // Check if Leaflet is loaded
+                    if (typeof L === 'undefined') {
+                        this.error = 'Leaflet library not loaded. Please check your scripts.';
+                        this.loading = false;
+                        return;
+                    }
+
+                    // Initialize map - centered on New Zealand
+                    this.map = L.map('map').setView([-41.2865, 174.7762], 5);
+
+                    // Add OpenStreetMap tiles
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© OpenStreetMap contributors',
+                        maxZoom: 19
+                    }).addTo(this.map);
+
+                    // Load KML
+                    this.loadKML();
+                },
+
+                loadKML() {
+                    // Load KML file manually to extract folder information
+                    fetch('/files/nz_map.kml')
+                        .then(response => response.text())
+                        .then(kmlText => {
+                            const parser = new DOMParser();
+                            const kmlDoc = parser.parseFromString(kmlText, 'text/xml');
+
+                            // Parse folders and their placemarks
+                            this.parseKMLFolders(kmlDoc);
+
+                            // Now load with Omnivore for map display
+                            if (typeof omnivore === 'undefined') {
+                                this.error = 'Leaflet Omnivore not loaded. Check scripts.';
+                                this.loading = false;
+                                return;
+                            }
+
+                            this.kmlLayer = omnivore.kml('/files/nz_map.kml')
+                                .on('ready', () => {
+                                    this.loading = false;
+
+                                    // Zoom to fit all markers
+                                    if (this.kmlLayer.getBounds().isValid()) {
+                                        this.map.fitBounds(this.kmlLayer.getBounds());
+                                    }
+
+                                    // Apply custom markers with colors
+                                    this.applyCustomMarkers();
+                                })
+                                .on('error', (e) => {
+                                    this.loading = false;
+                                    this.error =
+                                        'Could not load KML file. Check the file path: /files/nz_map.kml';
+                                    console.error('KML Error:', e);
+                                })
+                                .addTo(this.map);
+                        })
+                        .catch(error => {
+                            this.loading = false;
+                            this.error = 'Error loading KML file: ' + error.message;
+                            console.error('Fetch Error:', error);
+                        });
+                },
+
+                parseKMLFolders(kmlDoc) {
+                    const folders = kmlDoc.getElementsByTagName('Folder');
+                    this.categories = {};
+
+                    Array.from(folders).forEach(folder => {
+                        const folderName = folder.getElementsByTagName('name')[0]?.textContent;
+                        if (!folderName) return;
+
+                        const placemarks = folder.getElementsByTagName('Placemark');
+
+                        if (!this.categories[folderName]) {
+                            this.categories[folderName] = [];
+                        }
+
+                        Array.from(placemarks).forEach(placemark => {
+                            const name = placemark.getElementsByTagName('name')[0]?.textContent;
+                            if (name) {
+                                this.categories[folderName].push(name);
+                            }
+                        });
+                    });
+
+                    console.log('Categories loaded:', this.categories);
+                },
+
+                applyCustomMarkers() {
+                    this.locations = [];
+
+                    this.kmlLayer.eachLayer((layer) => {
+                        if (layer.feature && layer.feature.properties) {
+                            const props = layer.feature.properties;
+                            const locationName = props.name || 'Unnamed Location';
+
+                            // Find category for this location
+                            let category = 'Sin categoría';
+                            for (const [cat, names] of Object.entries(this.categories)) {
+                                if (names.includes(locationName)) {
+                                    category = cat;
+                                    break;
+                                }
+                            }
+
+                            const categoryStyle = this.categoryColors[category] || {
+                                color: '#6b7280',
+                                bg: 'bg-gray-100',
+                                text: 'text-gray-800',
+                                border: 'border-gray-300'
+                            };
+
+                            this.locations.push({
+                                id: this.locations.length,
+                                name: locationName,
+                                description: props.description || 'No description available',
+                                category: category,
+                                categoryStyle: categoryStyle,
+                                layer: layer
+                            });
+
+                            // Create custom colored marker
+                            const customIcon = L.divIcon({
+                                className: 'custom-marker',
+                                html: `<div style="background-color: ${categoryStyle.color}; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
+                                iconSize: [12, 12],
+                                iconAnchor: [6, 6]
+                            });
+
+                            layer.setIcon(customIcon);
+
+                            // Add popup with category badge
+                            layer.bindPopup(`
+                            <div class="min-w-[250px]">
+                                <div class="mb-2 inline-block py-1 text-xs font-semibold rounded ${categoryStyle.bg} ${categoryStyle.text}">
+                                    ${category}
+                                </div>
+                                <h3 class="font-bold text-gray-900 text-md">${locationName}</h3>
+                                <p class="!m-0 text-gray-700">${props.description || ''}</p>
+                            </div>
+                        `);
+                        }
+                    });
+
+                    // Sort locations by category
+                    this.locations.sort((a, b) => {
+                        if (a.category === b.category) {
+                            return a.name.localeCompare(b.name);
+                        }
+                        return a.category.localeCompare(b.category);
+                    });
+
+                    // Initialize all categories as collapsed
+                    Object.keys(this.categoryColors).forEach(category => {
+                        this.expandedCategories[category] = false;
+                    });
+
+                    console.log(
+                        `Loaded ${this.locations.length} locations in ${Object.keys(this.categories).length} categories`
+                    );
+                },
+
+                toggleCategory(category) {
+                    this.expandedCategories[category] = !this.expandedCategories[category];
+                },
+
+                focusOnLocation(location) {
+                    // Get coordinates and zoom to location
+                    const latLng = location.layer.getLatLng();
+                    this.map.setView(latLng, 15);
+
+                    // Open popup
+                    location.layer.openPopup();
+                }
+            }
+        }
+    </script>
+
+    </div>
+</section>
 
 <!-- End: /page_builder/_map.antlers.html -->
