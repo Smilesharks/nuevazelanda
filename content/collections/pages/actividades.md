@@ -13,6 +13,7 @@ page_builder:
       - cd088695-c0fb-4800-9dea-79a94b07ac33
       - 71d1689c-c11d-4d76-963c-c96398aa4460
       - 6412be51-dd20-457b-9c03-fce5a902fe02
+      - 51360b72-0c9e-4bf5-bf05-b63e84c7dcbb
     type: entry_actividades
     enabled: true
   -
@@ -27,5 +28,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: e84d5482-9293-4e92-95ab-fd1122936cd9
-updated_at: 1690078802
+updated_at: 1724145744
 ---
