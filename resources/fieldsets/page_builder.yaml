@@ -27,18 +27,18 @@ fields:
               fields:
                 -
                   import: entradas
-            entry_list:
-              display: 'Entry List'
-              instructions: null
-              fields:
-                -
-                  import: entry_list
             entry_actividades:
               display: 'Entry List'
               instructions: null
               fields:
                 -
                   import: entry_actividades
+            entry_list:
+              display: 'Entry List'
+              instructions: null
+              fields:
+                -
+                  import: entry_list
             faq:
               display: FAQ
               instructions: 'List frequently asked questions in an accordion.'
@@ -71,6 +71,12 @@ fields:
               fields:
                 -
                   import: link_blocks
+            map:
+              display: Map
+              instructions: null
+              fields:
+                -
+                  import: map
         text:
           display: Text
           instructions: 'Text based blocks.'
