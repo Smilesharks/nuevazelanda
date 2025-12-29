@@ -1,0 +1,4096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Copia de Nueva Zelanda</name>
+    <description>@slowtravelers_  (ig y tiktok) hemos creado este mapa para compartir toda la información que tenemos sobre NZ y hacer más fácil tu viaje en este país</description>
+    <Style id="icon-1688-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1688-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1688-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1688-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1688-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1688-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1688-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1688-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1688-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1688-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-nodesc-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-nodesc-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trabajo: Horticultura y frutales</name>
+      <Placemark>
+        <name>Blueberry Bliss - Broadfield Berryfruit</name>
+        <description><![CDATA[Cosecha de arándanos (enero-marzo). Trabajo estacional en plantación de berries.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.4760384,-43.6074414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darlings Orchard</name>
+        <description><![CDATA[Cosecha de cerezas (diciembre-febrero). Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3623975,-45.6335887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berry Lands</name>
+        <description><![CDATA[Cosecha de frambuesas, arándanos, moras boysen y fresas (diciembre-febrero). Plantación multi-varietal.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.1607693,-41.3369726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gracebrook Orchard</name>
+        <description><![CDATA[Cosecha de cerezas (diciembre-enero). Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.73824,-43.178177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strawberries</name>
+        <description><![CDATA[Plantación de fresas con oportunidades de trabajo estacional durante la temporada de cosecha.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9225084,-41.5000321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaituna Orchards </name>
+        <description><![CDATA[Cosecha de cerezas (diciembre). Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.6779039,-43.762109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>State Highway 6</name>
+        <description><![CDATA[Huerto de Cherry Corp para cosecha de cerezas (diciembre-enero).]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.0567224,-45.0194104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omahanui berryfruit gardens</name>
+        <description><![CDATA[Cosecha de berries variados (noviembre-marzo). Amplia variedad de moras y frambuesas.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.99103,-41.1905566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Otajuna Berries</name>
+        <description><![CDATA[Cosecha de frambuesas (diciembre-febrero). Ubicado en zona rural de Otajuna.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.5736937,-43.6570027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smithfield Berries</name>
+        <description><![CDATA[Cosecha de berries variados (diciembre-enero). Moras y frambuesas negras y rojas.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            171.7799467,-43.9024923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>west melton cherry farm</name>
+        <description><![CDATA[Cosecha de cerezas (noviembre-enero). Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.3542577,-43.4929195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>berry devine boysenberries</name>
+        <description><![CDATA[Cosecha de moras boysen (diciembre-enero). Especialización en esta variedad.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.9717209,-37.9328699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BerryHealthy</name>
+        <description><![CDATA[Cosecha de arándanos (febrero-abril). Temporada tardía de berries.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.9154903,-41.0861053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bluebank Blueberry & Emu Farm]]></name>
+        <description><![CDATA[Cosecha de arándanos (enero-abril). Granja diversificada con emúes.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.1107304,-41.0682901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blueberry Country</name>
+        <description><![CDATA[Cosecha de arándanos (diciembre-marzo). Trabajo estacional en plantación.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.3535361,-37.9447609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camelot Fresh Fruit Orchard</name>
+        <description><![CDATA[Cosecha de frutas variadas (diciembre-mayo). Duraznos, nectarinas, manzanas, ciruelas y albaricoques.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.812141,-39.6066023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Julians Berry Farm and Café</name>
+        <description><![CDATA[Cosecha de berries variados (noviembre-febrero). Granja con café y amplia variedad.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.9439741,-37.9482868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kaipaki Nursery & Orchard]]></name>
+        <description><![CDATA[Cosecha de ciruelas y manzanas (diciembre-junio). Vivero y huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.4492431,-37.9061974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>jardines y huertos Massey</name>
+        <description><![CDATA[Cosecha de fresas (diciembre-enero). Jardines universitarios con trabajo temporal.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.6034648,-36.8162598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monavale Blueberries 2</name>
+        <description><![CDATA[Plantación de arándanos con temporada extendida de octubre a marzo.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.3971055,-37.9303358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monavale Blueberries</name>
+        <description><![CDATA[Cosecha de arándanos (octubre-marzo). Temporada extendida de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.3971055,-37.9303358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penray Gardens</name>
+        <description><![CDATA[Cosecha de fresas, tomates y vegetales (diciembre-marzo). Jardín diversificado.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.1384969,-40.7798641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phil Greig Strawberry Gardens</name>
+        <description><![CDATA[Cosecha de fresas (diciembre-enero). Plantación especializada pick your own.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.5705681,-36.7831798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redwood Lane Blueberries</name>
+        <description><![CDATA[Cosecha de arándanos (enero-marzo). Trabajo estacional en plantación.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0745845,-37.752884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Runciman Berries and Emus B&B Ltd]]></name>
+        <description><![CDATA[Cosecha de moras y boysen (diciembre-enero). Granja con alojamiento disponible.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.9422135,-37.1520644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>strawberry lane</name>
+        <description><![CDATA[Cosecha de fresas (octubre-enero). Temporada extendida de fresas.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.1103671,-37.7152352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>strawberreis, family Troost</name>
+        <description><![CDATA[Cosecha de fresas (diciembre-enero). Granja familiar.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.6282055,-36.7110077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Te Puke</name>
+        <description><![CDATA[Principal zona de producción de kiwis. Cosecha desde marzo.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3264797,-37.7841979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mount Pack & Cool Ltd ( Mpac)]]></name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora de kiwis.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0930384,-37.7568375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opotiki</name>
+        <description><![CDATA[Zona rural con alojamiento económico. Algunas empresas ofrecen transporte para trabajadores.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            177.2871025,-38.0122705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Ree Crescent</name>
+        <description><![CDATA[Empaque de cerezas Cherry Corp (diciembre-finales enero). Packhouse.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1906479,-45.0516085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suncrest Orchard</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional disponible en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1490814,-45.0497962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>State Highway 6</name>
+        <description><![CDATA[Huerto de Cherry Corp para cosecha de cerezas (diciembre-enero).]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1772649,-45.0408123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Up Orchard Limited</name>
+        <description><![CDATA[Producción de cerezas premium con cosecha en diciembre-enero.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1571394,-45.0410445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pure Pac</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.15458,-45.0815353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leaning Rock Cherries Ltd</name>
+        <description>Enviar solicitudes en su web</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.4105446,-45.2212577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarita Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1523618,-45.0566943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Plains Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.2838389,-44.9217932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mpac Mount Maunganui</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            176.2030117,-37.668914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Huka Pak</name>
+        <description><![CDATA[Cosecha de kiwis (marzo-junio). Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.1880342,-37.6694608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mount Pack & Cool Ltd ( Mpac)]]></name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora de kiwis.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0930384,-37.7568375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DMS Pukepack</name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3344975,-37.8180489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Transpack</name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.38552,-37.78971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Aongatete</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            175.9442871,-37.6084653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DMS Te Puna</name>
+        <description><![CDATA[Cosecha de kiwis (marzo-junio). Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0747117,-37.6929461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trevelyan's Pack & Cool]]></name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3259353,-37.8157178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastPack - Marshall Rd</name>
+        <description><![CDATA[Planta de empaque con trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            175.9158662,-37.5635577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Kerikeri</name>
+        <description><![CDATA[Cosecha de kiwis (marzo-junio). Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9460759,-35.2082472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Oakside</name>
+        <description><![CDATA[Cosecha de kiwis (marzo-junio). Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3746678,-37.8108277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Orangewood</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.9450972,-35.1932183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastPack - Quarry Rd</name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3042523,-37.7753356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Peninsula</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            175.7415924,-36.9065399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastPack - Opotiki</name>
+        <description><![CDATA[Planta de empaque con trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            177.2870374,-38.0248421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastPack - Edgecumbe</name>
+        <description><![CDATA[Planta de empaque con trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.8320201,-37.9726795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka OPAC</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            177.2901008,-38.0246373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastPack - Washer Rd</name>
+        <description><![CDATA[Empaque de kiwis (marzo-junio). Planta procesadora.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3162913,-37.7766059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seeka Gisborne</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            177.9927112,-38.6627522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Tree Farm</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1433525,-45.0572112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr. Henry Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1809788,-45.0384359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fortune Fruit Company</name>
+        <description>inscripciones 1 de agosto. cosecha 15 dici-5 febrero</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.2154659,-44.9907948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Orchards</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1976473,-45.0287955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Off Our Tree cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1654067,-45.0365843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Smithy's PYO Cherries]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.162711,-45.036243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dam Good Fruit PYO Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.156108,-45.04208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Tree Farm</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1433525,-45.0572112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr. Henry Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1809788,-45.0384359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ripponvale Cherry Shop</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1531719,-45.047822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Tree Farm</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1433525,-45.0572112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunstan Hills ltd</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.3107813,-45.216069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mamaku Blue Blueberry Experience</name>
+        <description><![CDATA[Cosecha de arándanos. Trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0772114,-38.0771387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 South</name>
+        <description>agencia reclutadora para recoger Cherries. Dan diferentes alojamientos. Cobras lo mínimo. Buscar y postular en su web. </description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1700023,-45.0510283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trophy Ridge Cherries Nz Limited</name>
+        <description><![CDATA[Cosecha de cerezas (septiembre). Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.2797442,-44.9240197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clyde orchards</name>
+        <description>https://www.clydeorchards.co.nz/</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3213015,-45.2111024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CentralPac</name>
+        <description>Agencia reclutadora. Se abre selección en agosto. temporada diciembre-enero. Echar en su web</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.242757,-44.9691732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hinton</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.3961384,-45.2462057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Orchards</name>
+        <description><![CDATA[Cosecha de cerezas. Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1976473,-45.0287955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Corp</name>
+        <description><![CDATA[Cosecha de cerezas. Trabajo estacional en huerto.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.1733066,-45.0329052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vardaan Enterprises Limited</name>
+        <description><![CDATA[Cosecha de kiwis. Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.0799998,-37.7002662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garcia Contracting Services Ltd</name>
+        <description><![CDATA[Cosecha de kiwis (octubre). Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.3197416,-37.7838345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro Kiwi Limited</name>
+        <description><![CDATA[Cosecha de kiwis. Principal zona de producción.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.326043,-37.7842983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Back Paddock Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3493078,-45.2095855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forest Lodge Orchard - Electric Cherries</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.2817479,-44.9228966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Otago Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.3319664,-45.2493396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jones Family Fruit Stall</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1458602,-45.0583953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Local Honey Shed</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1748517,-45.07179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Freeway Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.2128598,-45.0362827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yealands Family Wines</name>
+        <description>VINO https://www.yealands.co.nz/</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.1324157,-41.6480293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panmure Orchards Ltd</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3132845,-45.2190545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[A S Wilcox & Sons Limited]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            174.850726,-37.213602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>69 Matakana Road</name>
+        <description>69 Tataku Road, Matakana Auckland</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.6608201,-36.3937321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alapa Viticultural Services Limited</name>
+        <description>vinicultura, reclutadora del sector https://nzee.nz/membership/nzee-member-employer-map/member/joe-walker </description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9567932,-41.5309528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amberland Orchards Ltd</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9778914,-41.1532819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apata Group Limited</name>
+        <description>reclutadora para trabajo de frutas</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            176.1666816,-37.6878913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise Berries Limited</name>
+        <description><![CDATA[Plantación de berries con trabajo estacional en cosecha.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            174.8840461,-37.2854699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tyrella Orchards Limited</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.0127264,-41.1120691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Zealand Apple Products</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.9764563,-41.1840905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rapaura Springs Wines</name>
+        <description>viñedos</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.967427,-41.4556614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cloudy Bay Vineyards</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8786421,-41.4916234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hunter's Wines]]></name>
+        <description>viñedos</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.88756,-41.4753451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jakimm Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.156189,-45.0420162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strode Road Orchard Limited</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3102928,-45.214313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McIntosh Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3184218,-45.2377517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverside Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            176.786744,-39.5901125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roberts farming</name>
+        <description>Orchard tienen pagina web</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            177.8934209,-38.6323509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clos Henri Vineyard</name>
+        <description>viñedos</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.7584057,-41.5242115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TE WHARE RA Vineyard and Winery</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8146215,-41.5122538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahi Wines</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8175761,-41.5072295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marlborough Grape Producers Cooperative</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.815999,-41.5058608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nautilus Estate</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8176993,-41.4868231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huia Vineyards</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8301421,-41.4823084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FROMM Winery</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8486376,-41.5140198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Maria Estate Marlborough Cellar Door</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.8832783,-41.5322612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Town Winery</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.9601664,-41.5115965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hortus Ltd</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.979275,-41.5163461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Road Estate</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.949011,-41.4983934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherryland</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9224543,-41.5096014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spray free cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.916004,-41.5102991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiwi Cherries</name>
+        <description><![CDATA[Planta de empaque con trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9177573,-41.4942442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ruby Bay Cherries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.0738825,-41.2108304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Brothers Cherry And Real Fruit Ice Cream Stall</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9975751,-41.0799871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lowes Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.0901821,-41.363164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Echodale Marketing (Echodale Orchard)</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.1663641,-41.3592821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inwood Orchards</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9814667,-41.1621781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wratten Orchards Limited</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9829771,-41.1626708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mclean Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9833382,-41.1374842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Bay Fruit</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.9955747,-41.1185374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Shaggery Farm</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.9427319,-41.1133816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairfield Orchards Ltd</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9853515,-41.0916709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heywood Orchard</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9718486,-41.0671273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frasers Orchard Farm Shop</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9712736,-41.0594195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orchard View Farm</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.9342919,-41.0497333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dancing Water Vineyard and Winery</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.7934612,-43.0420183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Estate Wines</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.8107883,-43.0343095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountford Estate Vineyard</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.8049521,-43.0448809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torlesse Wines</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.7634063,-43.0529795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waipara Downs Wines</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.7042417,-43.0487052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Georges Road Wines</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.6878527,-43.0705525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waiata Vineyard</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.7202357,-43.0980586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Brown Estates</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.7367634,-43.0968941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CherryDale 5</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            172.7373409,-43.1667887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blackhouse Vineyard</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.4545349,-43.3134429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deep Creek Fruits NZ</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.151089,-44.7079476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eden Orchards</name>
+        <description><![CDATA[Huerto frutal con oportunidades de trabajo estacional.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            169.3894238,-45.2373366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherrybank Orchards</name>
+        <description><![CDATA[Huerto de cerezas con trabajo estacional en verano.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            173.9628284,-41.4529181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trabajo: Ski y nieve</name>
+      <Placemark>
+        <name>Roundhill Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            170.6564563,-43.8254831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turoa</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            175.5269275,-39.3043775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohau-Ski-Fields</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            169.7794595,-44.2254043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Treble Cone Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            168.8960331,-44.6335052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Cheeseman Ski Area</name>
+        <description>mtcheeseman.co.nz</description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.6690673,-43.1571159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Lyford</name>
+        <description>mtlyford.co.nz</description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            173.143773,-42.4468077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple Basin Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.5759295,-42.908858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porters Ski Area</name>
+        <description>poterheightsski.com</description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.6309789,-43.2711213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowplanet</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            174.6653521,-36.6354837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow Farm NZ</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            169.0915798,-44.8784899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tukino Skifield</name>
+        <description>tukino.org</description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            175.6142907,-39.2782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Remarkables</name>
+        <description>theremarkables.co.nz </description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            168.8333333,-45.15,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porters Ski Field</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.6427537,-43.2738272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardrona Alpine Resort</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            168.9487967,-44.8732677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            172.8615731,-41.8745841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Olympus</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.6066656,-43.1933769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Dobson Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            170.6639505,-43.9432478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Hutt Ski Field</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.5394233,-43.4945142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manganui</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            174.0912961,-39.3038207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Peak Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            170.8161725,-43.8575808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanmer Springs Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            172.7352702,-42.4396816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Craigieburn Valley Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.7075966,-43.1156144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coronet Peak</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            168.7362725,-44.9271654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken River Ski Area</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            171.6837936,-43.1256127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whakapapa</name>
+        <description><![CDATA[Centro de ski con trabajo estacional en temporada de invierno.]]></description>
+        <styleUrl>#icon-1688-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            175.5564999,-39.2367589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trabajo: Agencias de reclutamiento</name>
+      <Placemark>
+        <name>Greenlight Recruitment</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.609824,-43.489795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robert Walters Christchurch</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6385579,-43.5335821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drake New Zealand Christchurch</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.5572255,-43.552081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Advanced Personnel Services Ltd Christchurch and Head Office</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6458854,-43.5332645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AWF</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6485573,-43.5332618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hudson Recruitment Agency Christchurch</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6312395,-43.5242317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hays - Recruitment Agency Christchurch</name>
+        <description>agencia reclutadora</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6293188,-43.5235518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ryan Recruitment</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6313021,-43.5253025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OneStaff</name>
+        <description>Con nosotros fueron muy amales, los primeros en ofrecernos un trabajo. Fuimos en persona a la oficina.</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.6394846,-43.5371302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OneStaff</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6605362,-45.0317083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OneStaff</name>
+        <description>Registrarse en la web</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6605362,-45.0317083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tradestaff Queenstown</name>
+        <description>empresa reclutadora, crear perfil. Son solo de obra y trabajos relacionados</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            168.661105,-45.0300457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A-Temp Recruitment, Nelson</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            173.2852492,-41.27394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Remarkable People NZ</name>
+        <description>Muy amables. Te registras allí, te pide varios papeles y cualquier trabajo te llaman. </description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6602854,-45.0311794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[FRENZ Recruitment & Immigration]]></name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7556025,-36.8490025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No8HR</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            175.322348,-38.009194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agworks Limited</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            176.9161805,-39.4878153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apatu Farms Limited www.apatufarms.co.nz</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            176.7688151,-39.6001962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aporo Apple</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.8071716,-36.9019131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hays - Recruitment Agency Auckland</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7643189,-36.8456742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robert Half Auckland Recruitment Agency</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7649888,-36.8438607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hudson Recruitment Agency Auckland</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7543652,-36.8452162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Randstad Auckland - Recruitment Agency</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7456723,-36.8171952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>84 Recruitment</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7544099,-36.7846254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tribe Recruitment</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.7584481,-36.8504004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OneStaff</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            174.903071,-36.96509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elevate Talent</name>
+        <description><![CDATA[Agencia de reclutamiento especializada en trabajos temporales y estacionales.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            172.5948477,-43.303587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trabajo: Ganadería</name>
+      <Placemark>
+        <name>Five Star Beef</name>
+        <description><![CDATA[Granja con oportunidades de trabajo en ganadería y agricultura.]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.8340659,-44.0205313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>369 Coldstream Road</name>
+        <description>https://www.rylib.co.nz/our-farms/delarbe/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.5422131,-44.0456575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>winslow farm</name>
+        <description>cordero. https://eglpastoral.co.nz/winslow-farm/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.6912079,-43.935076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LIC (Livestock Improvement Corporation)</name>
+        <description>https://licnz.com/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            175.3513889,-37.7813889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Norana Bulbs Limited</name>
+        <description><![CDATA[Granja con oportunidades de trabajo en ganadería y agricultura.]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            168.9300401,-46.1149747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Te Rūnanga o Ngāi Tahu</name>
+        <description><![CDATA[Granja con oportunidades de trabajo en ganadería y agricultura.]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            172.6006892,-43.5395824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ANZCO Foods Canterbury</name>
+        <description><![CDATA[Granja con oportunidades de trabajo en ganadería y agricultura.]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.8862381,-43.9208564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1113 Coldstream Road</name>
+        <description>https://www.rylib.co.nz/our-farms/akitu/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.534038,-44.1153073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ma Taua Dairies</name>
+        <description>https://www.rylib.co.nz/our-farms/ma-taua/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.6078311,-43.8996381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairmont Farm</name>
+        <description>https://www.rylib.co.nz/our-farms/fairmont/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.5680392,-44.0317285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kairoa Dairies</name>
+        <description>https://www.rylib.co.nz/our-farms/kairoa/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.5903279,-44.0565665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahanga dairies</name>
+        <description>https://www.rylib.co.nz/our-farms/mahanga-dairies/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.5903279,-44.0565665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taepu Land</name>
+        <description>https://www.rylib.co.nz/our-farms/taepu-land/</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            171.5215112,-44.1573564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trabajo: Otros sectores</name>
+      <Placemark>
+        <name>Kingsgate Hotel Autolodge Paihia</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            174.090258,-35.2806725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Millennium Hotel Queenstown</name>
+        <description>Nosotros trabajamos aquí. Hay en más ciudades. Al menos en los de esta ciudad, hay muy buen ambiente de trabajo entre compañeros y manager. Sueldo de housekeeping 26$ y almuerzo y comida incluidos. Ofrecen alojamiento. Hay varios puestos</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            168.6676191,-45.0336074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Copthorne Hotel and Resort Queenstown Lakefront</name>
+        <description>De la misma compañía que Millennium. </description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            168.6666921,-45.0344456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Millennium</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            174.7606587,-36.8528273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Copthorne Hotel & Apartments Queenstown Lakeview]]></name>
+        <description>Misma compañía. Dependiendo el trabajo irás a uno u otro. Facilidad para trabajar con amigos o pareja y tener mismos días libres porque hay varios edificios</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            168.6710577,-45.034167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kingsgate Hotel Dunedin</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            170.5009852,-45.8728023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[INNBetween Lodge & Backpackers]]></name>
+        <description>en temporada alta tienen trabajo</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            173.284849,-41.275713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Hotel Nelson</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.278404,-41.2817872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Avistamiento de fauna</name>
+      <Placemark>
+        <name>Golfo de Hauraki - orcas, defines y ballenas</name>
+        <description><![CDATA[Avistamiento de orcas, ballenas y delfines en el puerto. Tours marinos disponibles.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.1894045,-36.5988941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wairaka Statue, Turuturu Roimata, Whakatāne Heads</name>
+        <description><![CDATA[Buceo y avistamiento de mamíferos marinos. Orcas, ballenas minke y ballenas piloto visibles desde la costa.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            177.0098877,-37.9431147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bay of Islands</name>
+        <description><![CDATA[Avistamiento de orcas y ballenas (mayo-junio). Zona ideal para kayak y tours marinos.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.1540659,-35.2167252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whangarei</name>
+        <description><![CDATA[Hábitat natural de kiwis, difíciles de avistar en estado salvaje. Visitar santuarios locales.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.3165604,-35.7274938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coromandel</name>
+        <description><![CDATA[Península con población de kiwis en estado salvaje. Avistamiento nocturno en áreas protegidas.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.5004287,-36.7629033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotorua</name>
+        <description><![CDATA[Hábitat natural de kiwis, difíciles de avistar en estado salvaje. Visitar santuarios locales.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            176.2377669,-38.1445987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Nacional de Tongariro</name>
+        <description><![CDATA[Hábitat natural de kiwis, difíciles de avistar en estado salvaje. Visitar santuarios locales.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.5938117,-39.1928169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Akaroa - ballena/delfines</name>
+        <description><![CDATA[Avistamiento de delfines. Zona ideal para tours marinos.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            172.9671271,-43.805263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaikoura</name>
+        <description><![CDATA[Avistamiento de orcas, ballenas, delfines (junio-julio). Zona ideal para tours marinos.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            173.6799111,-42.3994483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queen Charlotte Sound / Tōtaranui</name>
+        <description><![CDATA[Avistamiento de orcas, ballenas (junio-julio). Zona ideal para tours marinos.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.3331694,-41.0815077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archivos N. de Ucrania - pingü ojos amarillos</name>
+        <description>pingüinos de ojos amarillos (únicos en el mundo) y leones marino peludos </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.643615,-45.8987556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sumpter Wharf - pungüinos</name>
+        <description>pingüinos azules, si no están vuelven por la noche. también cormoranes</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.9771602,-45.108925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Timarum - pingüinos</name>
+        <description>pingüinos 🐧 (por la noche cuando vuelven)  </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            171.2372756,-44.3903881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wharariki Beach - leones marinos</name>
+        <description>leones marinos (ver con marea baja, se puede hacer kayak o pasear por la playa). ENERO-MARZO</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            172.6790795,-40.5029623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tongariro River</name>
+        <description><![CDATA[Rafting en aguas cristalinas con avistamiento del whio (pato azul), ave endémica de NZ.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.7942243,-38.9625308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandfly Bay - león marino</name>
+        <description>leones marinos peludos y pingüinos de ojos amarillos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.6431628,-45.8960963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oamaru- pingüinos</name>
+        <description>pingüinos azules, todo el año pero mejor verano</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.9714456,-45.0965979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elaine Bay Camping Area - manta raya</name>
+        <description>camping en el que se ven manta raya desde la orilla</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            173.7695312,-41.0554618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blackhead Beach</name>
+        <description>leones marinos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            176.8377211,-40.1629927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunedin - pingüinos</name>
+        <description>septiembre a mayo (mejor primavera y verano)</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.5005957,-45.8795455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monro Beach - pingüinos</name>
+        <description>pingüinos de fiorland.  mejor epoca de junio a noviembre. se llega a través de una caminata</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            169.2657611,-43.6958465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Foulwind Walkway - leones marinos</name>
+        <description>ruta muy bonita y fácil, se ven leones marinos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            171.464513,-41.7564185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stingray Bay - mantas raya</name>
+        <description>Se ven manta rayas</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.7945321,-36.8305729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waitomo Caves - glowworms (GW)</name>
+        <description>DE PAGO es el lugar más turístico y hay un tour.</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.1113208,-38.2606874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ruakuri Bushwalk - GW free</name>
+        <description>glowworm GRATIS</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.0796565,-38.2651553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waipu Caves Scenic GW </name>
+        <description>glow worms gratis</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.3481125,-35.9346624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mangapohue Natural Bridge GW</name>
+        <description>glow worm gratis</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.8993497,-38.2614378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glow Worm Dell GW</name>
+        <description>glow worms gratis</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.9747522,-42.7082851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Te Anau Glowworm Caves GW</name>
+        <description><![CDATA[Zona de avistamiento de fauna nativa. Consultar temporadas óptimas.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            167.7119348,-45.4177726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pōhatu / Flea Bay</name>
+        <description>Se pueden ver pingüinos pero es dificil llegar </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            173.0159957,-43.8768677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohau Point Lookout</name>
+        <description>mirador donde se ven miles de leones marinos, con seguridad y distancia</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            173.8341208,-42.2440596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surat Bay</name>
+        <description>leones marinos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            169.7412362,-46.479592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Catlins</name>
+        <description>en la zona de costa se ven pingüinos de ojos amarillos y lobos marinos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            169.1972269,-46.4635834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avalon Park</name>
+        <description>se ven loros, eastern rosella en libertad (son originarios de Australia)</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            174.9348881,-41.192983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Curio Bay</name>
+        <description>Leones marinos y pingüinos de ojos amarillos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            169.1008544,-46.6609359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Península de Coromandel</name>
+        <description><![CDATA[aquí está la única especia de ranas "Archey´s frog"]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            175.5833333,-36.8333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RP4W+P57</name>
+        <description>aquí vimos llamas de cerca</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            172.7454219,-43.1932125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isla Stewart</name>
+        <description><![CDATA[Zona con población de kiwis. Mejor avistamiento en santuarios y reservas.]]></description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            167.8272285,-47.0103212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orokonui Ecosanctuary</name>
+        <description>Refugio natural donde pueden ver aves raras como el kaka y el tui en un entorno protegido</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.6036254,-45.776918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Penguins Pukekura</name>
+        <description>Pingüinos azules. Al atardecer solo que puede entrar pagando porque una empresa gestiona el acceso para preservar a los pingüinos. Por el día se puede entrar. Nosotros los vimos desde el mirador y prismáticos</description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            170.7283781,-45.7771298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Rutas y senderos</name>
+      <Placemark>
+        <name>Arrowtown River Bridge Trail</name>
+        <description>/,2 km circular - 2,5h ruta moderada</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.8417064,-44.9419072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Lomond Track</name>
+        <description>Muy desafiante. Ir preparados. Vistas increibles en la cima. 13,5 km (i/V). El sendero comienza cerca de la estación base de Skyline Gondola en la parte superior de Brecon Street y te lleva a través de Ben Lomond Saddle hasta la cima de Ben Lemond. La última hora hasta la cima es rocosa y está por encima de la línea de árboles sin sombra. Puede haber Keas en la cima (un pájaro)</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.6398723,-45.0235954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bob’s Cove Track & Nature Walk]]></name>
+        <description>10,8km (i/v) - 3h - muchas zona de playa para nadar. Acceso desde Glenorchy Queenstown Road. Hay un pequeño aparcamiento en la entrada del sendero. El camping Twelve Mile Delta está situado al final del sendero, y es de pago: por orden de llegada.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.5276689,-45.0732784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brewster Glacier</name>
+        <description>Se puede hacer noche en Brewster Hut (reservar!!). Desde el refugio, 1,5 horas hasta el glaciar. total 11,5km (i/v). 9h total. 1200 m desnivel hasta el glaciar</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.4333333,-44.0833333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Lake and Rocky Mountain walks</name>
+        <description><![CDATA[Diamond Lake Circuit Track return 45 minutes / 2.5km (easy)<br>Diamond Lake Lookout return 1 hour / 2 km (easy-moderate, lots of stairs)<br>Lake Wānaka Lookout return 2 hours / 5 km (easy-moderate)<br>Rocky Mountain Summit Track return 3 hours / 7 km (moderate-hard)]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.9661012,-44.6449715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fanthams Peak</name>
+        <description>Hay un refugio llamado Syme Hut. amanecer increíble. comienza en el centro de visitantes de Dawson Falls. total 7h/exigente</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.0666667,-39.3166667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frankton Arm - Queenstown Trail</name>
+        <description>9,7 km ida y vuelta, 1h40min facil</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.7196028,-45.0286395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gertrude Saddle</name>
+        <description>(cuidado si hay nieve o lluvia, rocas resbaladizas). 8,2 km (i/v). 5 horas. dificultad alta. subida empinada.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.0123284,-44.7416169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hooker Valley track</name>
+        <description>Moderada 10,9km 3-4 horas</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.0939684,-43.7181257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isthmus Peak Track Parking</name>
+        <description>(alternativa a Roys Peak y menos gente!!). Vista de lagos y montañas. 15,8 km (i/v). 5 horas. desnivel 1.155m. dificultad media</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.2476667,-44.4664167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jack's Point Track]]></name>
+        <description>14 km i/v - 4 horas dificultad media </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.7183648,-45.0611269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karangahake Windows Walk</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.7250939,-37.4270824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaikoura Peninsula Walkway</name>
+        <description>Fácil, 3h alrededor de la península</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            173.7163521,-42.4232152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karamatura Falls</name>
+        <description>Hay una cascada </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.5443782,-36.9996427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Key Summit Trail</name>
+        <description>Sendero de 2 horas (vistas increíbles) </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.1294294,-44.8131443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kea Point</name>
+        <description>Ruta de ida y vuelta fácil. Menos de 1 hora. 2,9 km</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.0835514,-43.7101993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Alta Track</name>
+        <description>Caminata sencilla, es casi todo en coche. 3.4 km, 1,5h. Fácil. En verano es demasiado árido todo, a nosotros no nos encantó. La subida en coche muy bonita pero cobran 15$</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.8173274,-45.0572151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rakaia Gorge Walkway</name>
+        <description>3-4 horas ida y vuelta, es muy sencilla y muy bonita. mejor con las montañas nevadas</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            171.6590344,-43.5182823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lago Waikaremoana</name>
+        <description>se puede hacer hasta el primer refugio Panekire Hut, son 17km (i/v) - 46 km de ida 3-4 días</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            177.1123564,-38.7745378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moke Lake Loop Track</name>
+        <description>6,9km circular, 1h50min facil. hay zona de acampada</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.5672067,-45.0046158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Crichton Loop Track</name>
+        <description>7,7km circular, 2,5h. Moderada</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.53535,-45.0550247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Tauhara Car Park</name>
+        <description>subir a la cima del monte, poca distancia pero algo exigente</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            176.1403163,-38.7049435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Taranaki Summit Track</name>
+        <description>Es difícil, se puede hacer una más sencilla que es la siguiente: Fanthams Peak, hacer noche en Syme hut (sur), creo que no se puede reservar con antelación, (1940m). 5.5 km (3/4h). Parte de escaleras y gravilla. Aconsejable palos de montaña.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.0831997,-39.2877786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Sunday Track</name>
+        <description>Fácil, 3,5km. 1h. </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.8992924,-43.5460312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mueller Hut Route</name>
+        <description>Ruta de 9,7km ida y vuelta. Mejor época: diciembre-abril. Desafiante, pendientes pronunciadas</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.0871869,-43.7191315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omanawanui Track</name>
+        <description>sendero 3h ida y vuelta. muy buenas vistas</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.5128005,-37.0410681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pouakai Circuit Reflective Tarn</name>
+        <description>para ver el famoso reflejo del Taranaki en el agua.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.0472344,-39.2339336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omanawa Falls</name>
+        <description>paseo con miradores, facil</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            176.0780354,-37.8364311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pouakai Circuit Reflective Tarn</name>
+        <description>para ver el famoso reflejo del Taranaki en el agua. 12 km ida y vuelta. Fácil</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.0472344,-39.2339336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaitoke Regional Park</name>
+        <description>hay muchos senderos</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.1972222,-41.0675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown Gardens</name>
+        <description>Se puede hacer una caminada circular alrededor de los jardines. 2km- 0,5 h sencilla pero bonita</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.6607345,-45.0371873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown Hill Walking Track</name>
+        <description>Belfast Street. El aparcamiento es muy limitado, pero también se puede aparcar en la calle. 4,8 i/v - 2h Difícil</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.6667049,-45.0274174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sealy Tarns Viewpoint</name>
+        <description>2200 escaleras. difícil 5,3km.  3h. las vistas de Mount Cook y Hooker Valley lo valen. Está antes que Mueller Hut. La caminata comienza en White Horse Hill Campground, la zona de acampada de Mount Cook. Si quieres dormir allí, reserva con antelación.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.0743719,-43.7130423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roys Peak</name>
+        <description>6 horas en subir y bajar. Hay parking abajo pero se llena muy pronto. Demasiada gente. vistas bonitas pero es dura. mucha gente la hace para ver el amanecer. </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.05,-44.7,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spa Thermal Park</name>
+        <description>aquí comienza la ruta hacia Huka Falls de 45 minutos. tambiém se puede hacer desde el pueblo</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            176.0895396,-38.6738322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Great lake Trail Start</name>
+        <description>70km, alrededor del lago Taupo, se puede hacer en varias etapas.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.6830566,-38.6998993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tongariro Alpine Crossing</name>
+        <description>Este trekking de 19,4 km es considerado uno de los mejores trekkings de un día del mundo. 7-9 horas</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.6486843,-39.1009235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiki Walking Track</name>
+        <description>4,5 km (i/V) - 2 h - difícil  corta pero empinada.  La pista comienza cerca de la estación base de Skyline Gondola, en la parte superior de Brecon Street, y está completamente cubierta de bosque</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            153.1637889,-30.1904901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tongariro Northern Circuit</name>
+        <description>44.9 km circuito. 3-4 días</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.624536,-39.1457506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kohi Point Lookout Road</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            177.0127058,-37.9584357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wairere Falls Track Carpark</name>
+        <description>(atardecer sobre una cascada, 153m la más alta de isla norte). De noche se ve glowworms (gusanos luminosos). 5,5 km total, 3h. Media. </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.8626944,-37.7371972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Robert's Point Track]]></name>
+        <description>(vistas del glaciar Franz Josef). 13.5 km (i/v). 4,5h. dificultad media. Aparcar en Alex Knob Trail. </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.1810048,-43.4184986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Te Waihou Blue Springs (Whites Road entrance)</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            175.8134851,-38.019804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wye Creek Track</name>
+        <description>para ver miradores bonitos y una cascads desde varios puntos, basta con ir hasta Wye creek helipad, se tarda 1,5-2h en subir y bajar así que es fácil. es un paseo bonito. ESCALADORES: hay muchas paredes para escalar y suele haber gente</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.7607396,-45.1369094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Organ Pipes</name>
+        <description>Ruta de piedras hexagonales</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.566844,-45.8081212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Crichton Loop Track</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.5366284,-45.0669653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercer Bay Loop Walk</name>
+        <description>2.1 km - fácil - circular - 1 hora </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.468298,-36.9697296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Welcome Flat Hut</name>
+        <description>tiene aguas termales arriba </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.9467582,-43.6306879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Routeburn Track</name>
+        <description>ruta. hay varios hut para descansar</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.1764392,-44.7634933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queen Charlotte Track</name>
+        <description>sendero de varios días pero se puede hacer solo un cacho. es muy bonito</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            174.089927,-41.1960978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glenorchy Lagoon Scenic Walkway</name>
+        <description>paseos bonitos </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.3821246,-44.8498675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit above Lindis Pass</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.6428407,-44.5948226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Iron Track</name>
+        <description>loop de 4.5 km - 1,5 h - facil </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            169.15527,-44.693693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glaciar Tasman</name>
+        <description>1.5km - fácil - 30 min</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            170.2167344,-43.5983151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobins Track</name>
+        <description><![CDATA[Ruta escénica con senderos para caminatas y vistas panorámicas.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            168.8454016,-44.9440961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Actividades y tours</name>
+      <Placemark>
+        <name>Tongariro River</name>
+        <description><![CDATA[Rafting en aguas cristalinas con avistamiento del whio (pato azul), ave endémica de NZ.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            175.7942243,-38.9625308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cascadas de Huka</name>
+        <description><![CDATA[Impresionantes cascadas del río Waikato con paseos peatonales y excursiones en jet boat.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            176.0900496,-38.6486357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nevis Bungy Swing</name>
+        <description><![CDATA[Uno de los bungys más altos de NZ a 134m. Ofrece bungy y columpio gigante sobre el río Nevis.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            169.0287222,-45.0629444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaituna River</name>
+        <description><![CDATA[Famoso por el rafting con cascada de 7m, la más alta comercialmente navegable del mundo.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            176.3700925,-37.8687588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown Jet Boat - RealNZ</name>
+        <description><![CDATA[Tour en jet boat por los ríos Shotover y Kawarau con giros a alta velocidad.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            168.658378,-45.033254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Okere Falls</name>
+        <description><![CDATA[Cascadas espectaculares ideales para rafting y caminatas panorámicas.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            176.3449719,-38.016982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kawarau Gorge Suspension Bridge</name>
+        <description><![CDATA[Primer lugar de bungy comercial del mundo. Icónico puente histórico de 1880.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            168.8998691,-45.0088448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pic's Peanut Butter World]]></name>
+        <description><![CDATA[Fábrica de mantequilla de maní con tour gratuito y degustaciones. Marca icónica neozelandesa.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            173.2142792,-41.3229971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cruise Milford</name>
+        <description>crucero por milford</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            167.9269145,-44.6683179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Below Zero Ice Bar</name>
+        <description>hay 3 en la ciudad, minus 5</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6614748,-45.0325149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volcán Taupo</name>
+        <description>recinto de pago 45$</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            175.9022125,-38.800175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Craters of the Moon</name>
+        <description>campo geotérmico más grande de Nueva Zelanda. entrada 5 euros</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            176.0714386,-38.6443021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skydive Mount Cook</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            170.1170842,-44.2387097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KJet Queenstown</name>
+        <description><![CDATA[Excursión en jet boat por ríos y lagos de la región.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6599264,-45.0329917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Skytrek Tandem Hang Gliding & Paragliding]]></name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.6602476,-45.0305055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Discovery Jet</name>
+        <description>jet boat, muy bonito en invierno con montañas nevadas</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            171.6580048,-43.5186157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Río Waikato</name>
+        <description>jet boat, también se puede hacer el descenso en canoa y ver growworm </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            175.5549198,-37.9412499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Cat Cruises</name>
+        <description>nadar con delfines Hector, los mas pequeños</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            172.9604365,-43.8091531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ngarua Caves</name>
+        <description>Cuevas </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            172.9028218,-41.0189572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skyline Rotorua</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            176.221969,-38.110432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skyline Queenstown</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.6561937,-45.0285011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taupo DeBretts Hot Springs</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            176.0981922,-38.7026512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wairoa Gorge Bike Park</name>
+        <description><![CDATA[Parque de ciclismo de montaña con senderos de diferentes niveles en un entorno natural.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            173.1075937,-41.5142731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sky Tower</name>
+        <description><![CDATA[Ícono de Auckland con mirador panorámico a 328m de altura. Ofrece SkyJump (salto controlado) y SkyWalk.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            174.762191,-36.848448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Founders Heritage Park</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            173.2978765,-41.2618916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skydive Abel Tasman</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            172.9926065,-41.1234805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skydive Wanaka</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.2474532,-44.7251954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NZONE Skydive Queenstown</name>
+        <description>skydive indoor</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            168.6597723,-45.0312309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>iFLY Indoor Skydiving Queenstown</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.6574963,-45.0299923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oxbow Adventure Co</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.0156451,-45.0421611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highlands Motorsport Park</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.1676437,-45.0577838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wild Central Otago Honey</name>
+        <description>circuito de muchos km para andar en bici. Se pueden alquilar allí</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            169.2060852,-45.057228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cave Stream Scenic Reserve</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            171.7413889,-43.1975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doubtful Sound</name>
+        <description>fiordos. se llega en bus y otro barco antes, es el más largo peo también más caro.</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            166.9910671,-45.3260228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RealNZ | Te Anau Glowworm Caves</name>
+        <description>gusanos brillantes</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            167.7119348,-45.4177726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
