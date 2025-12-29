@@ -3571,16 +3571,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tiki Walking Track</name>
-        <description>4,5 km (i/V) - 2 h - difícil  corta pero empinada.  La pista comienza cerca de la estación base de Skyline Gondola, en la parte superior de Brecon Street, y está completamente cubierta de bosque</description>
-        <styleUrl>#icon-1899-7CB342</styleUrl>
-        <Point>
-          <coordinates>
-            153.1637889,-30.1904901,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Tongariro Northern Circuit</name>
         <description>44.9 km circuito. 3-4 días</description>
         <styleUrl>#icon-1899-7CB342</styleUrl>
