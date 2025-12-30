@@ -15,7 +15,7 @@
         <!-- Header Section -->
         <div class="mb-6">
             <h1 class="mb-3 text-4xl font-bold text-gray-900">Mapa Interactivo de Nueva Zelanda</h1>
-            <p class="mb-4 text-lg text-gray-600">
+            <p class="mb-4 text-lg text-gray-600">  
                 Hemos creado este mapa para compartir toda la información que tenemos sobre Nueva Zelanda
                 y hacer más fácil tu viaje en este país. Explora lugares de trabajo, rutas, avistamiento de fauna y
                 actividades.
@@ -203,9 +203,23 @@
                 },
 
                 loadKML() {
+                    // Try multiple KML file paths
+                    const kmlPaths = [
+                        '/files/nz_map.kml',
+                        '{{ config:app:url }}/files/nz_map.kml',
+                        '/nz_map.kml'
+                    ];
+
+                    let kmlPath = kmlPaths[0];
+
                     // Load KML file manually to extract folder information
-                    fetch('/files/nz_map.kml')
-                        .then(response => response.text())
+                    fetch(kmlPath)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! status: ${response.status}`);
+                            }
+                            return response.text();
+                        })
                         .then(kmlText => {
                             const parser = new DOMParser();
                             const kmlDoc = parser.parseFromString(kmlText, 'text/xml');
@@ -220,7 +234,7 @@
                                 return;
                             }
 
-                            this.kmlLayer = omnivore.kml('/files/nz_map.kml')
+                            this.kmlLayer = omnivore.kml(kmlPath)
                                 .on('ready', () => {
                                     this.loading = false;
 
@@ -235,14 +249,14 @@
                                 .on('error', (e) => {
                                     this.loading = false;
                                     this.error =
-                                        'Could not load KML file. Check the file path: /files/nz_map.kml';
+                                        `Could not load KML file from: ${kmlPath}. Please ensure the file is deployed to production.`;
                                     console.error('KML Error:', e);
                                 })
                                 .addTo(this.map);
                         })
                         .catch(error => {
                             this.loading = false;
-                            this.error = 'Error loading KML file: ' + error.message;
+                            this.error = `Error loading KML file: ${error.message}. File path: ${kmlPath}`;
                             console.error('Fetch Error:', error);
                         });
                 },
