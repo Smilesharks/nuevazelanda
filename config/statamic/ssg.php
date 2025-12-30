@@ -46,6 +46,7 @@ return [
         public_path('build') => 'build',
         public_path('social_images') => 'social_images',
         public_path('visuals') => 'visuals',
+        public_path('files') => 'files',
     ],
 
     'symlinks' => [
