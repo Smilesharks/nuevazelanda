@@ -27,8 +27,17 @@ module.exports = {
       primary: {
         // DEFAULT: 'oklch(53.24% 0.301 290.86 / <alpha-value>)'
         DEFAULT: 'oklch(0.53% -0.04 -0.17 / <alpha-value>)'
-        
       },
+      // Quiz result colours
+      red: colors.red,
+      rose: colors.rose,
+      pink: colors.pink,
+      yellow: colors.yellow,
+      amber: colors.amber,
+      orange: colors.orange,
+      green: colors.green,
+      emerald: colors.emerald,
+      teal: colors.teal,
     },
     extend: {
       // Set default transition durations and easing when using the transition utilities.

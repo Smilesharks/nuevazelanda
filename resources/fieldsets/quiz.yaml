@@ -1,0 +1,91 @@
+title: Quiz
+fields:
+  -
+    handle: quiz_title
+    field:
+      type: text
+      display: 'Título del quiz'
+      default: '¿Estás listo para tu Working Holiday en Nueva Zelanda?'
+      instructions: 'El título principal que aparece sobre el quiz.'
+  -
+    handle: quiz_intro
+    field:
+      type: textarea
+      display: 'Introducción'
+      default: 'Responde estas 15 preguntas para evaluar tu preparación.'
+      instructions: 'Texto introductorio mostrado antes de comenzar.'
+  -
+    handle: resources_personal
+    field:
+      type: replicator
+      display: 'Recursos - Preparación Personal'
+      instructions: 'Enlaces mostrados si esta es la categoría más débil.'
+      sets:
+        resource:
+          display: Recurso
+          fields:
+            -
+              handle: resource_title
+              field:
+                type: text
+                display: Título
+            -
+              handle: resource_url
+              field:
+                type: link
+                display: URL
+            -
+              handle: resource_description
+              field:
+                type: text
+                display: Descripción
+  -
+    handle: resources_practical
+    field:
+      type: replicator
+      display: 'Recursos - Factores Prácticos'
+      instructions: 'Enlaces mostrados si esta es la categoría más débil.'
+      sets:
+        resource:
+          display: Recurso
+          fields:
+            -
+              handle: resource_title
+              field:
+                type: text
+                display: Título
+            -
+              handle: resource_url
+              field:
+                type: link
+                display: URL
+            -
+              handle: resource_description
+              field:
+                type: text
+                display: Descripción
+  -
+    handle: resources_language
+    field:
+      type: replicator
+      display: 'Recursos - Habilidades de Inglés'
+      instructions: 'Enlaces mostrados si esta es la categoría más débil.'
+      sets:
+        resource:
+          display: Recurso
+          fields:
+            -
+              handle: resource_title
+              field:
+                type: text
+                display: Título
+            -
+              handle: resource_url
+              field:
+                type: link
+                display: URL
+            -
+              handle: resource_description
+              field:
+                type: text
+                display: Descripción

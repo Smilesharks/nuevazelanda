@@ -77,6 +77,13 @@ fields:
               fields:
                 -
                   import: map
+            quiz:
+              display: Quiz
+              instructions: 'Quiz interactivo de preparación para Working Holiday.'
+              icon: education-school-test
+              fields:
+                -
+                  import: quiz
         text:
           display: Text
           instructions: 'Text based blocks.'
