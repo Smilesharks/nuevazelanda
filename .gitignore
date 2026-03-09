@@ -18,3 +18,6 @@ yarn-error.log
 /public/build/
 /users
 /storage/forms
+/.claude
+.DS_Store
+**/.DS_Store
