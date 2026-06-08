@@ -3,6 +3,10 @@ tree:
     id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
     entry: home
   -
+    id: f7a2c8e1-5d3b-4a9f-b6c4-8e2d1f0a3b5c
+    entry: quiz-readiness
+    title: Quiz
+  -
     id: 88b13e58-1371-48db-8b0a-3103ea685215
     title: Guias
     children:
